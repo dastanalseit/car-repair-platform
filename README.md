@@ -134,7 +134,6 @@ Additional planned documentation:
 - User research
 - Literature review
 - Requirements and acceptance criteria
-- Verification and evaluation plan
 - Risks and project milestones
 - Supervisor feedback and resulting revisions
 
@@ -164,6 +163,8 @@ Task IDs will be referenced in branch names and commit or pull request descripti
 
 ## Verification and Evaluation Plan
 
+See the [evaluation plan](docs/evaluation-plan.md) for requirement-linked cases, participant tasks, the comparison baseline, metrics and proposed acceptance targets. Related task: [CRP-5](https://dastan-car-repair.youtrack.cloud/issue/CRP-5). The plan is a draft; evaluation has not been conducted.
+
 Planned checks include:
 
 - Search results match the selected filters.
@@ -175,7 +176,7 @@ Planned checks include:
 - Specialist ratings are calculated correctly.
 - Representative users can complete the main platform workflows.
 
-Evaluation metrics, measurement conditions, and a baseline for comparison will be defined before evaluation begins.
+The detailed plan proposes metrics, measurement conditions and a baseline for comparison. Confirm the protocol before evaluation begins.
 
 ## Setup, Execution, and Testing
 
@@ -194,3 +195,4 @@ The following Git tags will identify the versions submitted for assessment:
 - `final-pre-defense`
 
 Each submission will include the repository link, submission tag, completed work summary, known limitations, and outstanding tasks.
+
