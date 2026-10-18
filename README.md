@@ -83,7 +83,6 @@ The following features are outside the initial scope:
 
 - A working website covering the main user scenarios
 - A documented review verification mechanism
-- Requirements and acceptance criteria
 - Architecture diagrams and database design
 - An interface prototype
 - Verification and evaluation results
@@ -100,9 +99,9 @@ Significant deliverables and design decisions will be reviewed with the supervis
 
 ## Current Development Status
 
-**Stage:** Initial planning and requirements analysis.
+**Stage:** Requirements and initial interface/system design.
 
-The project scope and initial feature set have been drafted. The project proposal document is pending completion. Implementation has not started.
+The scope, requirements, existing-system comparison, initial diagrams and a clickable interface prototype have been drafted. The project proposal remains pending. The production website and backend have not been implemented.
 
 ## Technologies
 
@@ -120,16 +119,18 @@ The final choices and their justification will be documented after the compariso
 ## Project Documentation
 
 - [Project proposal](docs/project-proposal.md) — content pending
+- [Existing system comparison](docs/existing-system-comparison.md)
+- [Requirements and acceptance criteria](docs/requirements.md)
+- [Use case, system context and component diagrams](docs/diagrams/README.md)
+- [Clickable website prototype and walkthrough](docs/prototype/README.md)
+- [Prototype review notes and outstanding checks](docs/prototype/verification-notes.md)
 
 Additional planned documentation:
 
 - User research
 - Literature review
-- Existing system comparison
 - Technology comparison
 - Requirements and acceptance criteria
-- Architecture diagrams with editable source files
-- Interface prototype
 - Verification and evaluation plan
 - Risks and project milestones
 - Supervisor feedback and resulting revisions
@@ -175,7 +176,9 @@ Evaluation metrics, measurement conditions, and a baseline for comparison will b
 
 ## Setup, Execution, and Testing
 
-Runnable application code is not yet available.
+A standalone interface prototype is available in `docs/prototype/index.html`. Download the file and open it in a browser. It uses fictional data held in memory and requires no installation. See the [prototype guide](docs/prototype/README.md).
+
+Production application code is not yet available.
 
 Installation, configuration, execution, and testing instructions will be added when implementation begins. Configuration examples will use placeholder values. Passwords, API keys, and other confidential data must not be committed.
 
@@ -188,3 +191,4 @@ The following Git tags will identify the versions submitted for assessment:
 - `final-pre-defense`
 
 Each submission will include the repository link, submission tag, completed work summary, known limitations, and outstanding tasks.
+
