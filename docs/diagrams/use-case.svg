@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="1580" viewBox="0 0 1250 1580">
+<rect width="1250" height="1580" fill="#fff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172b3a}.title{font-size:32px;font-weight:700}.label{font-size:22px}.small{font-size:17px;fill:#526678}.actor{font-size:22px;font-weight:700}</style>
+<text x="55" y="58" class="title">Car Repair Platform — Use Case Diagram</text>
+<text x="55" y="91" class="small">Browser-based website • Initial design • 18 October 2026</text>
+<rect x="355" y="125" width="845" height="1325" rx="0" fill="#f8fafc" stroke="#354b5e" stroke-width="2"/>
+<text x="777" y="162" text-anchor="middle" class="actor">Car Repair Platform website</text>
+<circle cx="145" cy="287.0" r="17" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<path d="M145 304.0 V350.0 M113 325.0 H177 M145 350.0 L119 384.0 M145 350.0 L171 384.0" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<text x="145" y="416.0" text-anchor="middle" class="actor">Visitor</text>
+<line x1="185" y1="325.0" x2="487" y2="225" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="225" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="222" text-anchor="middle" class="label">Search specialists and view profiles</text>
+<text x="795" y="247" text-anchor="middle" class="small">UC01 · FR-02–04</text>
+<line x1="185" y1="325.0" x2="487" y2="325" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="325" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="322" text-anchor="middle" class="label">Read published reviews</text>
+<text x="795" y="347" text-anchor="middle" class="small">UC02 · FR-13</text>
+<line x1="185" y1="325.0" x2="487" y2="425" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="425" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="422" text-anchor="middle" class="label">Register or sign in</text>
+<text x="795" y="447" text-anchor="middle" class="small">UC03 · FR-01</text>
+<circle cx="145" cy="657.0" r="17" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<path d="M145 674.0 V720.0 M113 695.0 H177 M145 720.0 L119 754.0 M145 720.0 L171 754.0" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<text x="145" y="786.0" text-anchor="middle" class="actor">Customer</text>
+<line x1="185" y1="695.0" x2="487" y2="545" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="545" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="542" text-anchor="middle" class="label">Submit and track own requests</text>
+<text x="795" y="567" text-anchor="middle" class="small">UC04 · FR-05–06</text>
+<line x1="185" y1="695.0" x2="487" y2="645" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="645" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="642" text-anchor="middle" class="label">Confirm or dispute completion</text>
+<text x="795" y="667" text-anchor="middle" class="small">UC05 · FR-08</text>
+<line x1="185" y1="695.0" x2="487" y2="745" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="745" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="742" text-anchor="middle" class="label">Leave a verified review</text>
+<text x="795" y="767" text-anchor="middle" class="small">UC06 · FR-09</text>
+<line x1="185" y1="695.0" x2="487" y2="845" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="845" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="842" text-anchor="middle" class="label">Submit and track complaints</text>
+<text x="795" y="867" text-anchor="middle" class="small">UC07 · FR-11</text>
+<circle cx="145" cy="1027.0" r="17" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<path d="M145 1044.0 V1090.0 M113 1065.0 H177 M145 1090.0 L119 1124.0 M145 1090.0 L171 1124.0" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<text x="145" y="1156.0" text-anchor="middle" class="actor">Specialist</text>
+<line x1="185" y1="1065.0" x2="487" y2="965" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="965" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="962" text-anchor="middle" class="label">Manage own profile and services</text>
+<text x="795" y="987" text-anchor="middle" class="small">UC08 · FR-02</text>
+<line x1="185" y1="1065.0" x2="487" y2="1065" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="1065" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="1062" text-anchor="middle" class="label">Accept or decline requests</text>
+<text x="795" y="1087" text-anchor="middle" class="small">UC09 · FR-07</text>
+<line x1="185" y1="1065.0" x2="487" y2="1165" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="1165" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="1162" text-anchor="middle" class="label">Update work status</text>
+<text x="795" y="1187" text-anchor="middle" class="small">UC10 · FR-07</text>
+<circle cx="145" cy="1297.0" r="17" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<path d="M145 1314.0 V1360.0 M113 1335.0 H177 M145 1360.0 L119 1394.0 M145 1360.0 L171 1394.0" fill="none" stroke="#172b3a" stroke-width="2.5"/>
+<text x="145" y="1426.0" text-anchor="middle" class="actor">Administrator</text>
+<line x1="185" y1="1335.0" x2="487" y2="1285" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="1285" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="1282" text-anchor="middle" class="label">Review and resolve complaints</text>
+<text x="795" y="1307" text-anchor="middle" class="small">UC11 · FR-12</text>
+<line x1="185" y1="1335.0" x2="487" y2="1385" stroke="#60788b" stroke-width="1.7"/>
+<ellipse cx="795" cy="1385" rx="308" ry="39" fill="white" stroke="#354b5e" stroke-width="1.8"/>
+<text x="795" y="1382" text-anchor="middle" class="label">Moderate published reviews</text>
+<text x="795" y="1407" text-anchor="middle" class="small">UC12 · FR-12–13</text>
+<line x1="185" y1="1065" x2="487" y2="845" stroke="#60788b" stroke-width="1.7"/><text x="55" y="1491" class="small">Review rule: only the request owner may review after customer-confirmed completion.</text>
+<text x="55" y="1518" class="small">One review per request. Confirmation does not imply satisfaction; negative reviews are allowed.</text>
+<text x="55" y="1545" class="small">Signed-in roles can also browse public content. Associations show access, not execution order.</text>
+</svg>
