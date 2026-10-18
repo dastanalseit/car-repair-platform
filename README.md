@@ -120,6 +120,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 ## Project Documentation
 
 - [Project proposal](docs/project-proposal.md) — content pending
+- [API design and permissions](docs/api-design.md)
 - [Database design and ER diagram](docs/database-design.md)
 - [Technology comparison and selection](docs/technology-comparison.md)
 - [Existing system comparison](docs/existing-system-comparison.md)
