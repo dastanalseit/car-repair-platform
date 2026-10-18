@@ -1,0 +1,31 @@
+@startuml
+skinparam componentStyle uml2
+component "Browser interface" as UI
+package "Backend application — modular monolith (draft)" {
+component "HTTP API and access control" as API
+component "Identity and sessions" as Identity
+component "Specialist directory" as Directory
+component "Request workflow" as Requests
+component "Reviews and ratings" as Reviews
+component "Complaints and moderation" as Complaints
+API --> Identity
+API --> Directory
+API --> Requests
+API --> Reviews
+API --> Complaints
+Reviews ..> Requests : verify ownership and completion
+Complaints ..> Reviews : change publication status
+}
+database "Relational database" as DB
+UI --> API : HTTPS requests / responses
+Identity --> DB
+Directory --> DB
+Requests --> DB
+Reviews --> DB
+Complaints --> DB
+note bottom of DB
+Unique constraint: one review per request.
+Transactions and server-side permissions.
+Technology choices remain pending.
+end note
+@enduml
