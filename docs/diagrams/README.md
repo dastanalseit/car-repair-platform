@@ -1,11 +1,10 @@
 # Use Case Diagram
 
-![Use Case Diagram](use-case.png)
+![Use Case Diagram](use-case.svg)
 
 ## Files
 
-- [PNG image](use-case.png): readable export for presentations and documents.
-- [SVG source](use-case.svg): editable vector drawing and exact source of the PNG layout.
+- [SVG source](use-case.svg): editable vector drawing and readable diagram export.
 - [PlantUML source](use-case.puml): editable UML model with the same actors and use cases. Rendering this file may produce a different layout.
 
 ## Interpretation
