@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1120" viewBox="0 0 1400 1120" role="img"><title>Component Diagram</title>
+<rect width="1400" height="1120" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#526879"/></marker><marker id="general" markerWidth="14" markerHeight="14" refX="13" refY="7" orient="auto"><path d="M1 1 L13 7 L1 13 Z" fill="white" stroke="#526879"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#203546} .muted{fill:#506778}</style>
+<text x="45" y="48" font-size="29" text-anchor="start" font-weight="700">Component Diagram</text>
+<text x="45" y="80" font-size="17" text-anchor="start" font-weight="400">Logical draft • One backend with modules • Technology selection pending</text>
+<rect x="440" y="120" width="520" height="105" rx="5" fill="#f3f7fa" stroke="#526879" stroke-width="1.5"/>
+<text x="700.0" y="152" font-size="21" text-anchor="middle" font-weight="700">Browser interface</text>
+<text x="700.0" y="181" font-size="17" text-anchor="middle" font-weight="400">Public pages · Customer · Specialist · Administrator</text>
+<path d="M700 225 V300" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="720" y="267" font-size="17" text-anchor="start" font-weight="400">HTTPS requests / responses</text>
+<rect x="55" y="295" width="1290" height="575" fill="#f8fafc" stroke="#526879" stroke-width="2"/>
+<text x="80" y="326" font-size="21" text-anchor="start" font-weight="700">Backend application — proposed modular monolith</text>
+<rect x="440" y="350" width="520" height="95" rx="5" fill="#f3f7fa" stroke="#526879" stroke-width="1.5"/>
+<text x="700.0" y="382" font-size="21" text-anchor="middle" font-weight="700">HTTP API and access control</text>
+<text x="700.0" y="411" font-size="17" text-anchor="middle" font-weight="400">Validate input, authenticate session, authorise operation</text>
+<rect x="85" y="540" width="210" height="155" rx="5" fill="#fff" stroke="#526879" stroke-width="1.5"/>
+<text x="190.0" y="572" font-size="21" text-anchor="middle" font-weight="700">Identity</text>
+<text x="190" y="605" font-size="16" text-anchor="middle" font-weight="400">Accounts</text>
+<text x="190" y="627" font-size="16" text-anchor="middle" font-weight="400">roles</text>
+<text x="190" y="649" font-size="16" text-anchor="middle" font-weight="400">password hashes</text>
+<text x="190" y="675" font-size="15" text-anchor="middle" font-weight="400">FR-01</text>
+<path d="M700 445 V490 H190 V540" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="340" y="540" width="210" height="155" rx="5" fill="#fff" stroke="#526879" stroke-width="1.5"/>
+<text x="445.0" y="572" font-size="21" text-anchor="middle" font-weight="700">Directory</text>
+<text x="445" y="605" font-size="16" text-anchor="middle" font-weight="400">Profiles</text>
+<text x="445" y="627" font-size="16" text-anchor="middle" font-weight="400">services</text>
+<text x="445" y="649" font-size="16" text-anchor="middle" font-weight="400">city search</text>
+<text x="445" y="675" font-size="15" text-anchor="middle" font-weight="400">FR-02–04</text>
+<path d="M700 445 V490 H445 V540" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="595" y="540" width="210" height="155" rx="5" fill="#fff" stroke="#526879" stroke-width="1.5"/>
+<text x="700.0" y="572" font-size="21" text-anchor="middle" font-weight="700">Request workflow</text>
+<text x="700" y="605" font-size="16" text-anchor="middle" font-weight="400">Ownership</text>
+<text x="700" y="627" font-size="16" text-anchor="middle" font-weight="400">permitted transitions</text>
+<text x="700" y="675" font-size="15" text-anchor="middle" font-weight="400">FR-05–08</text>
+<path d="M700 445 V490 H700 V540" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="850" y="540" width="210" height="155" rx="5" fill="#fff" stroke="#526879" stroke-width="1.5"/>
+<text x="955.0" y="572" font-size="21" text-anchor="middle" font-weight="700">Reviews / ratings</text>
+<text x="955" y="605" font-size="16" text-anchor="middle" font-weight="400">Eligibility</text>
+<text x="955" y="627" font-size="16" text-anchor="middle" font-weight="400">uniqueness</text>
+<text x="955" y="649" font-size="16" text-anchor="middle" font-weight="400">averages</text>
+<text x="955" y="675" font-size="15" text-anchor="middle" font-weight="400">FR-09–10,13</text>
+<path d="M700 445 V490 H955 V540" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1105" y="540" width="210" height="155" rx="5" fill="#fff" stroke="#526879" stroke-width="1.5"/>
+<text x="1210.0" y="572" font-size="21" text-anchor="middle" font-weight="700">Complaints</text>
+<text x="1210" y="605" font-size="16" text-anchor="middle" font-weight="400">Decisions</text>
+<text x="1210" y="627" font-size="16" text-anchor="middle" font-weight="400">review visibility</text>
+<text x="1210" y="675" font-size="15" text-anchor="middle" font-weight="400">FR-11–13</text>
+<path d="M700 445 V490 H1210 V540" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M955 695 V738 H700 V695" fill="none" stroke="#526879" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<text x="722" y="761" font-size="16" text-anchor="start" font-weight="400">Review eligibility reads request ownership and completion</text>
+<path d="M1210 695 V794 H955 V695" fill="none" stroke="#526879" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<text x="980" y="821" font-size="15" text-anchor="start" font-weight="400">Moderation changes visibility</text>
+<rect x="400" y="915" width="600" height="135" rx="5" fill="#f3f7fa" stroke="#526879" stroke-width="1.5"/>
+<text x="700.0" y="947" font-size="21" text-anchor="middle" font-weight="700">Relational database</text>
+<text x="700.0" y="976" font-size="17" text-anchor="middle" font-weight="400">Users · Profiles · Requests · Status history</text>
+<text x="700.0" y="1001" font-size="17" text-anchor="middle" font-weight="400">Reviews · Complaints · Moderation records</text>
+<path d="M190 695 V850 H700 V915" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M445 695 V850 H700 V915" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M700 695 V850 H700 V915" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M955 695 V850 H700 V915" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M1210 695 V850 H700 V915" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="55" y="1090" font-size="18" text-anchor="start" font-weight="400">Server enforces permissions. Unique review per request. Database transactions keep changes consistent.</text>
+</svg>
