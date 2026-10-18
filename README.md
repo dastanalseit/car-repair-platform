@@ -105,7 +105,7 @@ The scope, requirements, existing-system comparison, initial diagrams and a clic
 
 ## Technologies
 
-Selected for initial implementation on 19 October 2026:
+Selected technology stack:
 
 | Component | Technology |
 |---|---|
@@ -120,6 +120,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 ## Project Documentation
 
 - [Project proposal](docs/project-proposal.md) — content pending
+- [Database design and ER diagram](docs/database-design.md)
 - [Technology comparison and selection](docs/technology-comparison.md)
 - [Existing system comparison](docs/existing-system-comparison.md)
 - [Requirements and acceptance criteria](docs/requirements.md)
