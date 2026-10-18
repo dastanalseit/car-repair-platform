@@ -1,0 +1,41 @@
+@startuml
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+title Car Repair Platform — Use Case Diagram
+actor "Visitor" as Visitor
+actor "Customer" as Customer
+actor "Specialist" as Specialist
+actor "Administrator" as Administrator
+rectangle "Car Repair Platform website" {
+  usecase "Search specialists and view profiles\n(UC01, FR-02–04)" as UC01
+  usecase "Read published reviews\n(UC02, FR-13)" as UC02
+  usecase "Register or sign in\n(UC03, FR-01)" as UC03
+  usecase "Submit and track own requests\n(UC04, FR-05–06)" as UC04
+  usecase "Confirm or dispute completion\n(UC05, FR-08)" as UC05
+  usecase "Leave a verified review\n(UC06, FR-09)" as UC06
+  usecase "Submit and track complaints\n(UC07, FR-11)" as UC07
+  usecase "Manage own profile and services\n(UC08, FR-02)" as UC08
+  usecase "Accept or decline requests\n(UC09, FR-07)" as UC09
+  usecase "Update work status\n(UC10, FR-07)" as UC10
+  usecase "Review and resolve complaints\n(UC11, FR-12)" as UC11
+  usecase "Moderate published reviews\n(UC12, FR-12–13)" as UC12
+}
+Visitor -- UC01
+Visitor -- UC02
+Visitor -- UC03
+Customer -- UC04
+Customer -- UC05
+Customer -- UC06
+Customer -- UC07
+Specialist -- UC08
+Specialist -- UC09
+Specialist -- UC10
+Administrator -- UC11
+Administrator -- UC12
+Specialist -- UC07
+note bottom of UC06
+Only the request owner can review after
+customer-confirmed completion; one review per request.
+end note
+@enduml
