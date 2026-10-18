@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="950" viewBox="0 0 1350 950" role="img"><title>System Context Diagram</title>
+<rect width="1350" height="950" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#526879"/></marker><marker id="general" markerWidth="14" markerHeight="14" refX="13" refY="7" orient="auto"><path d="M1 1 L13 7 L1 13 Z" fill="white" stroke="#526879"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#203546} .muted{fill:#506778}</style>
+<text x="45" y="48" font-size="29" text-anchor="start" font-weight="700">System Context Diagram</text>
+<text x="45" y="80" font-size="17" text-anchor="start" font-weight="400">System scope • Human interactions • No external service integration selected</text>
+<rect x="425" y="310" width="500" height="290" rx="5" fill="#eaf3fa" stroke="#526879" stroke-width="1.5"/>
+<text x="675.0" y="342" font-size="21" text-anchor="middle" font-weight="700">Car Repair Platform website</text>
+<text x="675.0" y="371" font-size="17" text-anchor="middle" font-weight="400">Find repair specialists</text>
+<text x="675.0" y="396" font-size="17" text-anchor="middle" font-weight="400">Manage service requests</text>
+<text x="675.0" y="421" font-size="17" text-anchor="middle" font-weight="400">Confirm completion and publish reviews</text>
+<text x="675.0" y="446" font-size="17" text-anchor="middle" font-weight="400">Handle complaints</text>
+<rect x="45" y="170" width="280" height="130" rx="5" fill="#f3f7fa" stroke="#526879" stroke-width="1.5"/>
+<text x="185.0" y="202" font-size="21" text-anchor="middle" font-weight="700">Visitor</text>
+<text x="185.0" y="231" font-size="17" text-anchor="middle" font-weight="400">Search and browse</text>
+<text x="185.0" y="256" font-size="17" text-anchor="middle" font-weight="400">Register or sign in</text>
+<rect x="45" y="620" width="280" height="130" rx="5" fill="#f3f7fa" stroke="#526879" stroke-width="1.5"/>
+<text x="185.0" y="652" font-size="21" text-anchor="middle" font-weight="700">Customer</text>
+<text x="185.0" y="681" font-size="17" text-anchor="middle" font-weight="400">Requests and confirmation</text>
+<text x="185.0" y="706" font-size="17" text-anchor="middle" font-weight="400">Reviews and complaints</text>
+<rect x="1025" y="170" width="280" height="130" rx="5" fill="#f3f7fa" stroke="#526879" stroke-width="1.5"/>
+<text x="1165.0" y="202" font-size="21" text-anchor="middle" font-weight="700">Specialist</text>
+<text x="1165.0" y="231" font-size="17" text-anchor="middle" font-weight="400">Profile and services</text>
+<text x="1165.0" y="256" font-size="17" text-anchor="middle" font-weight="400">Assigned requests</text>
+<rect x="1025" y="620" width="280" height="130" rx="5" fill="#f3f7fa" stroke="#526879" stroke-width="1.5"/>
+<text x="1165.0" y="652" font-size="21" text-anchor="middle" font-weight="700">Administrator</text>
+<text x="1165.0" y="681" font-size="17" text-anchor="middle" font-weight="400">Complaints</text>
+<text x="1165.0" y="706" font-size="17" text-anchor="middle" font-weight="400">Moderation decisions</text>
+<path d="M325 235 H375 V365 H425" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="345" y="211" font-size="16" text-anchor="start" font-weight="400">Search / account input</text>
+<path d="M425 400 H355 V280 H325" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="50" y="332" font-size="16" text-anchor="start" font-weight="400">Profiles, reviews, account result</text>
+<path d="M325 665 H375 V535 H425" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="44" y="795" font-size="16" text-anchor="start" font-weight="400">Request, confirmation, review, complaint</text>
+<path d="M425 565 H395 V710 H325" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="45" y="823" font-size="16" text-anchor="start" font-weight="400">Status, history, published feedback</text>
+<path d="M1025 235 H975 V365 H925" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1025" y="145" font-size="16" text-anchor="start" font-weight="400">Profile / status updates</text>
+<path d="M925 400 H995 V280 H1025" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1010" y="332" font-size="16" text-anchor="start" font-weight="400">Requests and history</text>
+<path d="M1025 665 H975 V535 H925" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="974" y="795" font-size="16" text-anchor="start" font-weight="400">Moderation decisions</text>
+<path d="M925 565 H955 V710 H1025" fill="none" stroke="#526879" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="974" y="823" font-size="16" text-anchor="start" font-weight="400">Complaints and records</text>
+<text x="45" y="890" font-size="18" text-anchor="start" font-weight="400">Price and appointment time may be agreed by telephone outside the website.</text>
+<text x="45" y="920" font-size="18" text-anchor="start" font-weight="400">The database and server are internal components and are shown in the component diagram.</text>
+</svg>
