@@ -119,6 +119,8 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 
 ## Project Documentation
 
+- [Literature review and source comparison](docs/literature-review.md) — draft for supervisor review; [CRP-3](https://dastan-car-repair.youtrack.cloud/issue/CRP-3)
+
 - [Project proposal](docs/project-proposal.md) — content pending
 - [API design and permissions](docs/api-design.md)
 - [Database design and ER diagram](docs/database-design.md)
@@ -132,7 +134,6 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 Additional planned documentation:
 
 - User research
-- Literature review
 - Requirements and acceptance criteria
 - Verification and evaluation plan
 - Risks and project milestones
@@ -194,3 +195,4 @@ The following Git tags will identify the versions submitted for assessment:
 - `final-pre-defense`
 
 Each submission will include the repository link, submission tag, completed work summary, known limitations, and outstanding tasks.
+
