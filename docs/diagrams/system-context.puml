@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+actor Visitor
+actor Customer
+actor Specialist
+actor Administrator
+rectangle "Car Repair Platform website" as Website
+Visitor --> Website : search, registration, sign-in
+Website --> Visitor : profiles, reviews, account result
+Customer --> Website : request, confirmation, review, complaint
+Website --> Customer : status, history, feedback
+Specialist --> Website : profile and status updates
+Website --> Specialist : assigned requests and history
+Administrator --> Website : moderation decisions
+Website --> Administrator : complaints and records
+note bottom of Website
+Telephone arrangements are outside system scope.
+No external payment or messaging integration is selected.
+end note
+@enduml
