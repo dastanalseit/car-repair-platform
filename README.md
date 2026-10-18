@@ -4,7 +4,9 @@
 
 ## Overview
 
-Car Repair Platform is a planned web application that will help car owners find repair specialists, request services, and compare specialists using ratings based on verified customer reviews.
+The project will be delivered as a responsive website accessible through a web browser on computers and smartphones. Users will not need to install a separate application. Registration, specialist search, personal accounts, service requests, reviews, and ratings will be available through the website.
+
+Car Repair Platform is a planned website that will help car owners find repair specialists, request services, and compare specialists using ratings based on verified customer reviews.
 
 A verified review will be linked to a service request that has been completed and confirmed by the customer. This confirms the review’s connection to a recorded service request; it does not guarantee the quality of the service or eliminate all fraudulent activity.
 
@@ -67,7 +69,7 @@ The initial version will focus on the main workflow:
 
 **Find a specialist → Submit a service request → Confirm completion → Leave a verified review**
 
-The project will deliver a web application with customer, specialist, and basic administrator functionality.
+The project will deliver a website with customer, specialist, and basic administrator functionality.
 
 The following features are outside the initial scope:
 
@@ -79,7 +81,7 @@ The following features are outside the initial scope:
 
 ## Expected Outcomes
 
-- A working web application covering the main user scenarios
+- A working website covering the main user scenarios
 - A documented review verification mechanism
 - Requirements and acceptance criteria
 - Architecture diagrams and database design
