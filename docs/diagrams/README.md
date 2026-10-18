@@ -1,6 +1,6 @@
 # Website diagrams
 
-Initial design for the Car Repair Platform. Revised 18 October 2026. These diagrams describe a proposal, not an implemented system or supervisor-approved architecture.
+Initial design for the Car Repair Platform. These diagrams describe a proposal, not an implemented system or supervisor-approved architecture.
 
 ## Use case diagram
 
@@ -32,9 +32,13 @@ The website is one system interacting with visitors, customers, specialists and 
 
 This is a logical draft for a modular monolith: one backend application containing identity, directory, request, review and complaint modules. It is not a microservice deployment plan. A browser interface calls the HTTP API; server-side code checks authentication, permissions and input. Modules read and write a relational database.
 
-The review module checks request ownership and confirmed completion. A unique database constraint on the request reference prevents duplicate reviews. Transactions must keep verification and writes consistent. Moderation changes review visibility and therefore affects rating calculation while retaining decision history. Passwords are stored as salted hashes. Technology and hosting choices remain pending comparison.
+The review module checks request ownership and confirmed completion. A unique database constraint on the request reference prevents duplicate reviews. Transactions must keep verification and writes consistent. Moderation changes review visibility and therefore affects rating calculation while retaining decision history. Passwords are stored as salted hashes. The selected stack is React, Django/DRF and PostgreSQL; see the [technology comparison](../technology-comparison.md). Hosting remains to be decided.
 
 PlantUML files encode the logical models. SVG files are editable drawings with a manually arranged layout; rendering PlantUML may produce a different layout. PNG exports are included in the downloadable local design package, while SVG is the readable repository format.
+
+## Database ER diagram
+
+See the [database design and editable Mermaid ER diagram](../database-design.md) for entities, cardinalities, constraints and review-verification rules.
 
 ## Next review
 
