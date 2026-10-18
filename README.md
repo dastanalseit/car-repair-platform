@@ -105,20 +105,22 @@ The scope, requirements, existing-system comparison, initial diagrams and a clic
 
 ## Technologies
 
-The technology stack has not yet been selected.
+Selected for initial implementation on 19 October 2026:
 
-Alternatives will be compared for key technical decisions, including:
+| Component | Technology |
+|---|---|
+| Frontend | React + TypeScript + Vite |
+| Backend | Python + Django + Django REST Framework |
+| Database | PostgreSQL |
+| Internal administration | Django Admin |
+| Communication | HTTP API with JSON; HTTPS in deployment |
 
-- Frontend development
-- Backend development
-- Data storage
-- Communication between application components
-
-The final choices and their justification will be documented after the comparison.
+See the [technology comparison and selection](docs/technology-comparison.md) for alternatives, reasons and limitations. Exact versions will be pinned when implementation starts. The existing prototype is still standalone HTML; the selected production stack has not yet been implemented.
 
 ## Project Documentation
 
 - [Project proposal](docs/project-proposal.md) — content pending
+- [Technology comparison and selection](docs/technology-comparison.md)
 - [Existing system comparison](docs/existing-system-comparison.md)
 - [Requirements and acceptance criteria](docs/requirements.md)
 - [Use case, system context and component diagrams](docs/diagrams/README.md)
@@ -129,7 +131,6 @@ Additional planned documentation:
 
 - User research
 - Literature review
-- Technology comparison
 - Requirements and acceptance criteria
 - Verification and evaluation plan
 - Risks and project milestones
@@ -191,4 +192,3 @@ The following Git tags will identify the versions submitted for assessment:
 - `final-pre-defense`
 
 Each submission will include the repository link, submission tag, completed work summary, known limitations, and outstanding tasks.
-
