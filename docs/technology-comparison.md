@@ -1,6 +1,5 @@
 # Technology Comparison and Selection
 
-Decision date: 19 October 2026  
 Status: Selected for initial implementation; supervisor review pending.
 
 ## Context and criteria
@@ -70,6 +69,6 @@ DRF requires deliberate object-permission checks and queryset filtering; install
 
 The selected stack is suitable for the planned scope, but requires learning Python/Django, React and TypeScript and maintaining separate frontend and backend builds. It does not by itself guarantee security, usability or performance.
 
-Next: design the entity relationships and API contract, choose compatible supported versions and pin dependencies when implementation starts. Authentication/session configuration, hosting and deployment remain to be documented. No production implementation, benchmark or acceptance testing is claimed by this decision record.
+The initial [database design and ER diagram](database-design.md) is documented. Next: define the API contract, choose compatible supported versions and pin dependencies when implementation starts. Authentication/session configuration, hosting and deployment remain to be documented. No production implementation, benchmark or acceptance testing is claimed by this decision record.
 
 Related documents: [Requirements](requirements.md), [Architecture diagrams](diagrams/README.md), [Prototype](prototype/README.md).
