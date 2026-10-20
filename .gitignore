@@ -1,0 +1,45 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Django local runtime files
+*.sqlite3
+*.sqlite3-journal
+media/
+staticfiles/
+*.log
+
+# Frontend dependencies and generated output
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Local editor state
+.idea/
+*.swp
+*.swo
+*~

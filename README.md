@@ -125,7 +125,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 |---|---|
 | [Project proposal](docs/project-proposal.md) | Draft for supervisor review |
 | [User research](docs/user-research.md) | P1–P6 response summaries and preliminary findings; follow-up clarifications and collection metadata pending |
-| [Literature review and source comparison](docs/literature-review.md) | Draft with 15 sources; full-text appraisal of restricted sources remains pending |
+| [Literature review and source comparison](docs/literature-review.md) | 15 sources; full texts/manuscripts for 13, with methods and limitations expanded; sources [8] and [11] still require full text |
 | [Existing system comparison](docs/existing-system-comparison.md) | Draft comparison |
 | [Requirements and acceptance criteria](docs/requirements.md) | Initial requirements |
 | [Technology comparison and selection](docs/technology-comparison.md) | Proposed production stack and alternatives |
