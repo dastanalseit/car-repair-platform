@@ -114,4 +114,4 @@ Before final implementation submission, confirm that all Must requirements have 
 - [Evaluation plan](evaluation-plan.md)
 - [User research plan](user-research.md)
 
-These documents are consolidated drafts awaiting supervisor review. Interview findings and supervisor feedback remain intentionally blank.
+These documents are consolidated drafts awaiting supervisor review. Six driver response summaries and preliminary findings are available in User Research; collection metadata and clarifications remain incomplete. Supervisor feedback remains intentionally blank.
