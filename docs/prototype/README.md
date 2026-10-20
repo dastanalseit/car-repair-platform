@@ -1,8 +1,24 @@
 # Website interface prototype
 
-[Open or download the standalone source](index.html). GitHub displays HTML as source: download it and open it in a browser to interact with the prototype. It uses no external dependencies or network requests.
+AutoSenim is a provisional interface name; the diploma title remains unchanged. The prototype now includes Russian and Kazakh interfaces, a yellow-and-graphite theme, an inline vehicle illustration and a search reset control.
 
-AutoSenim is a provisional interface name. The official diploma title remains unchanged. The interface is in Kazakh for this review; the final interface language remains to be confirmed.
+## Open the prototype
+
+- [Russian interface](ru.html)
+- [Kazakh interface](kk.html); `index.html` also opens the Kazakh version in this repository.
+- [Hosted preview on Sites](https://autosenim-dastan-prototype.magic-coin-2293.chatgpt.site) — private, owner-only access. This is not a public committee-access link. The hosted entry page defaults to Russian.
+
+Download the repository ZIP or clone this branch, then open `docs/prototype/ru.html` in a browser. Keep `index.html`, `ru.html`, `kk.html` and `theme.css` together in the same folder. GitHub's file view displays source rather than running the interface. No installation, build step or external assets are required.
+
+Alternatively, from the repository root run:
+
+```sh
+python3 -m http.server 8768 --bind 127.0.0.1
+```
+
+Open `http://127.0.0.1:8768/docs/prototype/ru.html`. Stop the local server with Ctrl+C when finished.
+
+The language links load a separate page and reset demonstration state. These are prototype language options; the final production language scope remains to be agreed.
 
 ## Screens and interactions
 
@@ -33,4 +49,4 @@ The prototype demonstrates client-side interactions only. It cannot demonstrate 
 
 ## Verification
 
-See verification-notes.md for the checks actually performed. Unchecked browser and responsive conditions must not be presented as passed.
+The visual refresh and Russian translation have not undergone browser scenario or responsive testing. Earlier notes are historical and do not establish validation of this revision. See [verification-notes.md](verification-notes.md) for prior review notes. Unchecked browser and responsive conditions must not be presented as passed.
