@@ -102,7 +102,7 @@ Use task-linked branches and pull requests. Describe what changed, why it change
 
 For each implementation increment, completion requires the intended behaviour, updated documentation, evidence from the applicable planned checks and a clear statement of remaining defects. Test results must identify the evaluated commit. A blocked or unexecuted check is not a pass.
 
-Before submission, confirm that all Must requirements have evidence, the main browser journey is reproducible, private material is excluded, assessment tags identify the intended version, and known limitations are stated. Date-free planning does not replace any deadlines imposed by the course; agree scheduling separately when needed.
+Before final implementation submission, confirm that all Must requirements have evidence, the main browser journey is reproducible, private material is excluded, assessment tags identify the intended version, and known limitations are stated. Date-free planning does not replace any deadlines imposed by the course; agree scheduling separately when needed.
 
 ## 8. Related documents
 
@@ -110,8 +110,8 @@ Before submission, confirm that all Must requirements have evidence, the main br
 - [API design](api-design.md)
 - [Technology choices](technology-comparison.md)
 - [Prototype guide](prototype/README.md)
-- [Literature review draft — PR #2](https://github.com/dastanalseit/car-repair-platform/pull/2)
-- [Evaluation plan draft — PR #3](https://github.com/dastanalseit/car-repair-platform/pull/3)
-- [User research plan draft — PR #4](https://github.com/dastanalseit/car-repair-platform/pull/4)
+- [Literature review](literature-review.md)
+- [Evaluation plan](evaluation-plan.md)
+- [User research plan](user-research.md)
 
-The linked pull requests are drafts awaiting review and integration, not completed assessment approvals.
+These documents are consolidated drafts awaiting supervisor review. Interview findings and supervisor feedback remain intentionally blank.

@@ -101,7 +101,9 @@ Significant deliverables and design decisions will be reviewed with the supervis
 
 **Stage:** Requirements and initial interface/system design.
 
-The scope, requirements, existing-system comparison, initial diagrams and a clickable interface prototype have been drafted. The project proposal is drafted and awaiting supervisor review. The production website and backend have not been implemented.
+The proposal, literature review, comparisons, requirements, diagrams, database/API designs, evaluation plan and project plan are available as drafts. A clickable Russian/Kazakh interface prototype is available.
+
+**Intentionally pending:** interview records, interview findings and supervisor feedback remain blank. No supervisor approval or completed user study is claimed. The production website and backend have not been implemented; evaluation results are not yet available.
 
 ## Technologies
 
@@ -119,29 +121,38 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 
 ## Project Documentation
 
-- [Literature review and source comparison](docs/literature-review.md) — draft for supervisor review; [CRP-3](https://dastan-car-repair.youtrack.cloud/issue/CRP-3)
+| Document | Current status |
+|---|---|
+| [Project proposal](docs/project-proposal.md) | Draft for supervisor review |
+| [User research](docs/user-research.md) | Questions and procedure prepared; interview records and findings intentionally blank |
+| [Literature review and source comparison](docs/literature-review.md) | Draft with 15 sources; full-text appraisal of restricted sources remains pending |
+| [Existing system comparison](docs/existing-system-comparison.md) | Draft comparison |
+| [Requirements and acceptance criteria](docs/requirements.md) | Initial requirements |
+| [Technology comparison and selection](docs/technology-comparison.md) | Proposed production stack and alternatives |
+| [Use case, context and component diagrams](docs/diagrams/README.md) | Initial design; editable sources and exports |
+| [Database design and ER diagram](docs/database-design.md) | Initial design |
+| [API design and permissions](docs/api-design.md) | Initial contract |
+| [Prototype guide](docs/prototype/README.md) | Russian/Kazakh demonstration interface |
+| [Prototype review notes](docs/prototype/verification-notes.md) | Historical notes; the latest visual revision has not been scenario-tested |
+| [Evaluation plan](docs/evaluation-plan.md) | Protocol prepared; results pending |
+| [Project plan and risks](docs/project-plan.md) | Stages, responsibilities and risk register; calendar dates not assigned |
+| [Supervisor feedback](docs/supervisor-feedback.md) | Intentionally blank until actual feedback is received |
 
-- [Project proposal](docs/project-proposal.md) — content pending
-- [Project proposal](docs/project-proposal.md) — drafted; supervisor review pending
-- [API design and permissions](docs/api-design.md)
-- [Database design and ER diagram](docs/database-design.md)
-- [Technology comparison and selection](docs/technology-comparison.md)
-- [Existing system comparison](docs/existing-system-comparison.md)
-- [Requirements and acceptance criteria](docs/requirements.md)
-- [Use case, system context and component diagrams](docs/diagrams/README.md)
-- [Clickable website prototype and walkthrough](docs/prototype/README.md)
-- [Prototype review notes and outstanding checks](docs/prototype/verification-notes.md)
+## Remaining Evidence
 
-Additional planned documentation:
+- Conduct actual driver discussions and complete anonymised interview records and findings.
+- Record actual supervisor feedback and resulting revisions.
+- Complete outstanding source appraisal and reconcile requirements with research findings.
+- Before submission, confirm the required deliverables, reviewer access and scheduling with the supervisor. Create the assessment tag only for the version actually submitted.
+- Implement and evaluate the production website during the subsequent development stages.
 
-- User research
-- Requirements and acceptance criteria
-- Risks and project milestones
-- Supervisor feedback and resulting revisions
+Document availability does not imply supervisor approval or completion of the full diploma.
 
 ## Task Management
 
-**YouTrack project:** Link to be added.
+**YouTrack project:** [Car Repair Platform (CRP)](https://dastan-car-repair.youtrack.cloud/projects/CRP).
+
+Planning areas: CRP-1 proposal, CRP-2 interviews, CRP-3 literature, CRP-4 design/prototype, CRP-5 evaluation and CRP-6 supervisor submission.
 
 Each meaningful task will include:
 
@@ -149,7 +160,7 @@ Each meaningful task will include:
 - Expected outcome
 - Acceptance criteria
 - Priority
-- Deadline
+- Deadline when scheduling is agreed; dates are currently unassigned
 
 Task IDs will be referenced in branch names and commit or pull request descriptions. Relevant commits or pull requests will also be linked from YouTrack.
 
@@ -159,7 +170,7 @@ Task IDs will be referenced in branch names and commit or pull request descripti
 - Record meaningful changes progressively with descriptive commit messages.
 - Develop changes in separate task or feature branches.
 - Submit changes through pull requests, describing the task and how the work was checked.
-- Keep `main` as the reviewed project baseline.
+- Keep `main` as the consolidated project baseline; supervisor review is recorded separately.
 - Arrange supervisor review of selected significant changes at agreed checkpoints.
 - Record documentation and design changes alongside code changes.
 
@@ -182,7 +193,9 @@ The detailed plan proposes metrics, measurement conditions and a baseline for co
 
 ## Setup, Execution, and Testing
 
-A standalone interface prototype is available in `docs/prototype/index.html`. Download the file and open it in a browser. It uses fictional data held in memory and requires no installation. See the [prototype guide](docs/prototype/README.md).
+Download the repository ZIP or clone the repository, then open `docs/prototype/ru.html` (Russian) or `docs/prototype/kk.html` (Kazakh). Keep the HTML files and `theme.css` together. The prototype uses fictional data held in memory and requires no installation. See the [prototype guide](docs/prototype/README.md) for the walkthrough and local-server option.
+
+[Hosted preview](https://autosenim-dastan-prototype.magic-coin-2293.chatgpt.site/ru) — currently private and owner-only; use the repository copy for a reviewer who cannot access Sites.
 
 Production application code is not yet available.
 
@@ -190,7 +203,7 @@ Installation, configuration, execution, and testing instructions will be added w
 
 ## Submission Milestones
 
-The following Git tags will identify the versions submitted for assessment:
+The following Git tags are planned for versions submitted for assessment. They are not created by this documentation cleanup:
 
 - `pre-defense-1`
 - `pre-defense-2`

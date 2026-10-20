@@ -10,7 +10,7 @@
 
 Understand how drivers find repair specialists, assess service quality and use customer reviews. Explore difficulties without assuming that every participant has experienced dishonest repairs. Use the findings to refine the website requirements.
 
-These discovery interviews concern needs and past experiences. They are separate from the later [website evaluation](evaluation-plan.md), which examines usability and implemented behaviour. The evaluation-plan document is currently proposed in [PR #3](https://github.com/dastanalseit/car-repair-platform/pull/3).
+These discovery interviews concern needs and past experiences. They are separate from the later [website evaluation](evaluation-plan.md), which examines usability and implemented behaviour.
 
 Earlier informal conversations mentioned concerns about repair quality and being misled. They are preliminary context, not a completed interview study. No participant counts, quotations or formal findings are inferred from those conversations.
 

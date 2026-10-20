@@ -33,7 +33,7 @@ Before treating user needs as validated findings:
 - Keep observed findings, quotations, interpretations and design assumptions separate.
 - Link each supported finding to the requirements it informs; report disagreements and limitations.
 
-The literature review must meaningfully use at least 12 sources, including at least 8 scientific publications. It should examine online reputation, verified transactions, review manipulation, trust and marketplace usability. The review remains to be completed.
+The literature review must meaningfully use at least 12 sources, including at least 8 scientific publications. It should examine online reputation, verified transactions, review manipulation, trust and marketplace usability. A [literature review draft](literature-review.md) with 15 sources is available. Full-text appraisal of restricted sources and supervisor review remain pending.
 
 ## Target users
 
@@ -137,7 +137,7 @@ Current repository materials include comparisons, requirements, diagrams, a fict
 
 ## Evaluation approach
 
-A separate verification and evaluation plan must define procedures, metrics, measurement conditions and a baseline before evaluation begins.
+The [verification and evaluation plan](evaluation-plan.md) defines proposed procedures, metrics, measurement conditions and a comparison baseline. Confirm the protocol before evaluation begins.
 
 Planned evidence includes:
 
@@ -148,7 +148,7 @@ Planned evidence includes:
 - Search performance under the dataset and load conditions in the requirements.
 - Responsive and keyboard-accessibility checks on the main flows.
 
-A possible usability baseline is a simple directory with the same specialist data but without the request-linked review workflow. This is a proposal for comparison, not an experiment already conducted; the baseline and comparable tasks require review. No success rates or performance results are claimed.
+The planned comprehension comparison uses the same specialist information and workflow in both variants: A displays the verified-review label alone; B displays the same label with an explanation of its meaning and limits. The evaluation plan specifies counterbalanced presentation and comprehension questions. This comparison has not been conducted; no success rates or performance results are claimed.
 
 ## Delivery plan and dependencies
 
@@ -161,7 +161,7 @@ A possible usability baseline is a simple directory with the same specialist dat
 | Evaluation and refinement | Results, fixes and limitations | Runnable implementation and evaluation participants |
 | Submission preparation | Reviewed repository version, tag and demonstration notes | Completed review and traceability checks |
 
-Detailed deadlines, priorities, dependencies and acceptance criteria belong in YouTrack. A YouTrack project/task link is not yet available; no task ID has been invented. Dates and approval must be agreed with the supervisor.
+Priorities, dependencies and acceptance criteria are tracked in the [YouTrack project](https://dastan-car-repair.youtrack.cloud/projects/CRP); the proposal is linked to [CRP-1](https://dastan-car-repair.youtrack.cloud/issue/CRP-1). The [project plan](project-plan.md) describes stages and responsibilities. Calendar dates remain unassigned; scheduling and approval require separate agreement.
 
 ## Initial risks
 
@@ -188,3 +188,9 @@ Ask the supervisor to review the problem and scope, evidence quality, requiremen
 - [Database design](database-design.md)
 - [API design](api-design.md)
 - [Interface prototype](prototype/README.md)
+
+- [User research plan and blank results template](user-research.md)
+- [Literature review](literature-review.md)
+- [Evaluation plan](evaluation-plan.md)
+- [Project plan and risks](project-plan.md)
+- [Supervisor feedback — pending](supervisor-feedback.md)
