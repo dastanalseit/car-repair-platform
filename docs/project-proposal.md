@@ -16,7 +16,7 @@ Dastan is responsible for research, requirements, design, implementation, evalua
 
 Car owners need to find repair specialists whose services match their vehicle problem and location. They also need information that helps them compare specialists before submitting a request. A rating is more informative when a review can be connected to a recorded service relationship.
 
-The author reported informal conversations with drivers who expressed concerns about repair quality and being misled. These are preliminary observations, not a documented interview study. There is currently no recorded participant count, transcript or measured prevalence supporting a wider claim about repair services.
+The author reported informal conversations with drivers who expressed concerns about repair quality and being misled. These are preliminary observations, not a documented interview study. The separate [user research](user-research.md) now contains six anonymised driver response summaries and preliminary findings. These records do not establish measured prevalence across repair services; collection metadata and clarifications remain incomplete.
 
 This project addresses a specific information problem: helping customers find specialists and distinguish reviews linked to completed service requests from reviews with no recorded request relationship. It does not independently inspect repairs or guarantee that every review is truthful.
 
@@ -189,7 +189,7 @@ Ask the supervisor to review the problem and scope, evidence quality, requiremen
 - [API design](api-design.md)
 - [Interface prototype](prototype/README.md)
 
-- [User research plan and blank results template](user-research.md)
+- [User research plan, driver responses and preliminary findings](user-research.md)
 - [Literature review](literature-review.md)
 - [Evaluation plan](evaluation-plan.md)
 - [Project plan and risks](project-plan.md)

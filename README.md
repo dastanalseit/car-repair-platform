@@ -14,7 +14,7 @@ A verified review will be linked to a service request that has been completed an
 
 Initial informal discussions with drivers raised concerns about repair quality and the risk of being misled when choosing repair specialists.
 
-These discussions provide preliminary observations rather than formal research findings. Further user interviews and analysis of existing systems will be used to refine the problem statement and requirements.
+The [user research](docs/user-research.md) now records six anonymised driver response sets and preliminary findings, including differing views on website usefulness. Collection metadata and follow-up clarifications remain incomplete; the findings are not representative of all drivers.
 
 ## Aim
 
@@ -103,7 +103,7 @@ Significant deliverables and design decisions will be reviewed with the supervis
 
 The proposal, literature review, comparisons, requirements, diagrams, database/API designs, evaluation plan and project plan are available as drafts. A clickable Russian/Kazakh interface prototype is available.
 
-**Intentionally pending:** interview records, interview findings and supervisor feedback remain blank. No supervisor approval or completed user study is claimed. The production website and backend have not been implemented; evaluation results are not yet available.
+**Research update:** six anonymised driver response records and preliminary analysis are available. Follow-up details and collection metadata remain incomplete. Supervisor feedback remains blank; no supervisor approval is claimed. The production website and backend have not been implemented; evaluation results are not yet available.
 
 ## Technologies
 
@@ -124,7 +124,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 | Document | Current status |
 |---|---|
 | [Project proposal](docs/project-proposal.md) | Draft for supervisor review |
-| [User research](docs/user-research.md) | Questions and procedure prepared; interview records and findings intentionally blank |
+| [User research](docs/user-research.md) | P1–P6 response summaries and preliminary findings; follow-up clarifications and collection metadata pending |
 | [Literature review and source comparison](docs/literature-review.md) | Draft with 15 sources; full-text appraisal of restricted sources remains pending |
 | [Existing system comparison](docs/existing-system-comparison.md) | Draft comparison |
 | [Requirements and acceptance criteria](docs/requirements.md) | Initial requirements |
@@ -140,7 +140,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 
 ## Remaining Evidence
 
-- Conduct actual driver discussions and complete anonymised interview records and findings.
+- Clarify incomplete driver answers, document permission/collection metadata and review the preliminary findings.
 - Record actual supervisor feedback and resulting revisions.
 - Complete outstanding source appraisal and reconcile requirements with research findings.
 - Before submission, confirm the required deliverables, reviewer access and scheduling with the supervisor. Create the assessment tag only for the version actually submitted.
