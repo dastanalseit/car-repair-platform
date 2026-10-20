@@ -1,0 +1,82 @@
+/* Shared visual theme for the Kazakh and Russian prototypes. */
+:root{--ink:#202322;--muted:#73766f;--paper:#f7f7f3;--line:#e4e5de;--accent:#ffd43b;--green:#356346}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--paper);-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font-family:inherit}
+button{font-size:14px;font-weight:650;border-radius:11px;transition:background .18s,border-color .18s,box-shadow .18s;min-height:46px}
+button:hover{background:#f3f4ee;border-color:#b7baad}
+.primary,.lime{background:var(--accent);color:#252515;border-color:var(--accent);box-shadow:0 3px 0 #e3b92d}
+.primary:hover,.lime:hover{background:#ffdf67;border-color:#ffdf67;box-shadow:0 4px 12px #ffd43b35}
+.ghost{background:transparent;box-shadow:none}
+.demo{background:#eeefe7;border-bottom:1px solid #dedfd5;color:#62665b;font-size:11px;letter-spacing:.2px;padding-top:9px;padding-bottom:9px}
+.demo select,.demo button{font-size:12px;border-color:#d2d5c7;background:#fafbf6}
+header{padding-top:18px;padding-bottom:25px}
+.logo{letter-spacing:-1.1px;font-size:26px}
+.logo b{display:inline-grid;place-items:center;width:39px;height:39px;transform:skew(-6deg);border-radius:10px;padding:0;margin-right:10px;background:var(--accent)}
+header nav button{background:transparent;border-color:transparent;color:#50544c}
+header nav button:hover{background:#eaece2}
+header #authButton{background:var(--ink);color:white;padding-left:25px;padding-right:25px}
+main{padding-top:4px}
+.hero{position:relative;background:#222622;border:1px solid #343a30;border-radius:24px;grid-template-columns:1.45fr 1fr;box-shadow:0 20px 40px -30px #19231c70;margin-bottom:30px;isolation:isolate}
+.hero:before{content:"";position:absolute;width:520px;height:520px;right:-290px;top:-160px;border:85px solid #ffd43b12;border-radius:50%;z-index:-1}
+.hero>div{padding:52px 46px}
+.hero h1{font-size:clamp(36px,4.5vw,59px);font-weight:760;letter-spacing:-2.4px;line-height:1.08;max-width:620px}
+.hero p{font-size:16px;line-height:1.8;color:#bdc4b8;max-width:460px;margin-bottom:28px}
+.hero .eyebrow{display:inline-block;color:#ffe584;letter-spacing:1.5px;font-size:10px;border:1px solid #6f6940;background:#ffd43b0b;padding:7px 11px;border-radius:6px}
+.hero .process{background:transparent;border-left:1px solid #ffffff12;gap:0;padding:35px 34px;align-self:center}
+.step{position:relative;padding:23px 0;gap:17px}
+.step+.step{border-top:1px solid #ffffff12}
+.step span{font-size:13px;font-weight:750;border:1px solid #5d5d3a;background:#ffd43b0d;color:#ffdf66;border-radius:12px;width:44px;height:44px;display:grid;place-items:center;padding:0;flex-shrink:0}
+.step div{font-size:15px;font-weight:650;line-height:1.6}
+.step small{font-size:12px;font-weight:400;color:#9ca794;margin-top:4px}
+.search{padding:25px;border-radius:17px;border-color:#e3e4d9;box-shadow:0 10px 25px -20px #23311f60;margin-bottom:37px;gap:18px}
+.search label{font-size:12px;color:#6d7265}
+input,select,textarea{background:#fafbf6;border-color:#dbded1;font-size:14px;padding:13px;border-radius:10px}
+input:hover,select:hover,textarea:hover{border-color:#afb69e}
+input:focus,select:focus,textarea:focus{border-color:#bda02c;background:white}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #aa8110;outline-offset:3px}
+.search button{padding-left:32px;padding-right:32px;min-height:49px}
+h2{font-size:25px;letter-spacing:-.8px;font-weight:730}
+h3{font-size:19px;font-weight:720;letter-spacing:-.4px}
+.grid{gap:21px}
+.card{border:1px solid #e3e5da;border-radius:18px;padding:26px;box-shadow:0 4px 15px -10px #27382220}
+.grid .card{display:flex;flex-direction:column;transition:border-color .18s,box-shadow .18s}
+.grid .card:hover{border-color:#d0b84e;box-shadow:0 10px 25px -15px #6e601750}
+.grid .card>p{flex:1;font-size:14px;line-height:1.8}
+.grid .card>.pill{align-self:flex-start}
+.avatar{background:linear-gradient(145deg,#fff3b7,#f6d95b);border:1px solid #e9d77d;color:#625014;border-radius:17px;font-size:22px;letter-spacing:-.8px}
+.person{gap:15px;margin-bottom:22px}
+.person .tiny{font-size:12px;line-height:1.8}
+.pill{background:#f1f4e9;color:#52653a;font-size:10px;letter-spacing:.15px;font-weight:650;border:1px solid #e5ead9;padding:5px 9px;border-radius:7px}
+.rating{color:#97720c;font-size:19px;margin:18px 0 7px}
+.rating span{font-size:12px;color:#777c6f;margin-left:5px}
+.card .full{background:#f7f7f1;border:1px solid #e0e3d5;text-align:center;font-size:13px;margin-top:22px}
+.card .full:hover{background:#fff3ba;border-color:#e7cd63}
+.card .full.primary{background:var(--accent);border-color:var(--accent);color:#252515}
+.note{background:#fff8dc;border-left:3px solid #ebc22b;border-radius:0 10px 10px 0;color:#665a2e;line-height:1.75;font-size:13px}
+.stats{gap:0;background:white;border:1px solid var(--line);border-radius:15px;padding:22px 26px}
+.stats>div{padding-right:35px}.stats>div+div{padding-left:35px;border-left:1px solid var(--line)}
+.stats strong{font-size:28px;letter-spacing:-1px}.stats .muted{font-size:12px}
+.status{font-size:12px;background:#fff3c0;color:#79601a;font-weight:600;padding:6px 13px}.status.done{background:#eaf2e3;color:#3f6130}
+.review{padding:23px 0}.review p{font-size:14px;line-height:1.8}.review .ghost{font-size:12px;min-height:36px;padding:7px 11px}
+.profilehead h1{letter-spacing:-1.4px}.profilehead .eyebrow{font-size:11px}
+.empty{background:white;border-color:#d7dccd;color:#66705c}
+dialog{border:1px solid #e3e5da;border-radius:20px;padding:30px;box-shadow:0 24px 80px #17220e40}
+dialog::backdrop{background:#19221999;backdrop-filter:blur(3px)}
+.notification{background:#242c21;border:1px solid #566443;border-radius:12px;font-size:14px}
+footer{padding-top:26px;padding-bottom:30px;font-size:12px;color:#818576}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.hero>div{padding:36px}.hero .process{display:none}.hero h1{max-width:600px}.search{gap:14px}}
+@media(max-width:540px){.hero{border-radius:18px}.hero>div{padding:28px 23px}.hero h1{font-size:37px;letter-spacing:-1.5px}.hero p{font-size:14px}.hero .eyebrow{font-size:9px;letter-spacing:1px}.search{padding:20px;margin-bottom:28px}.card{padding:22px}.grid{gap:16px}header nav button{font-size:12px}header{padding-bottom:20px}.stats{padding:19px}.stats>div{padding-right:20px}.stats>div+div{padding-left:20px}.demo{font-size:10px}.profilehead h1{font-size:29px}}
+@media(prefers-reduced-motion:reduce){button,.grid .card{transition:none}}
+
+/* Refined catalogue composition. */
+.hero{grid-template-columns:1.15fr 1fr;min-height:420px}
+.hero>div{padding:46px 40px}.hero h1{font-size:clamp(35px,4vw,53px);line-height:1.13;letter-spacing:-2px}
+.hero .process{align-self:stretch;padding:25px 32px;background:linear-gradient(150deg,#2d352c,#222622);border-left:1px solid #ffffff0d}
+.car-visual{position:relative;margin-bottom:6px}.car-visual svg{width:100%;height:auto;display:block}.visual-caption{display:block;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#a8b49a;margin:0 0 0 10px}
+.hero .step{padding:11px 0;gap:13px}.hero .step span{width:32px;height:32px;border-radius:9px;font-size:10px}.hero .step div{font-size:12px}.hero .step small{font-size:11px;margin-top:0}
+.search-actions{display:flex;gap:8px;align-items:center}.search-actions .ghost{padding-left:12px;padding-right:12px;box-shadow:none}
+.catalog-heading{margin-bottom:20px}.catalog-heading h2{margin:8px 0 0;font-size:29px}.catalog-heading .eyebrow{font-size:9px;letter-spacing:2px;color:#8b8f80}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);margin-top:50px;padding:30px 0 0;border-top:1px solid var(--line);gap:32px}.benefits article{position:relative;padding-left:36px}.benefit-index{position:absolute;left:0;top:3px;color:#a99540;font-size:11px;font-weight:700}.benefits h3{font-size:14px;letter-spacing:0}.benefits p{font-size:12px;color:var(--muted);line-height:1.8;margin-bottom:0}
+header nav button[data-nav=home]{color:#252a20;background:#ecefe2}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.hero .process{display:none}.search-actions{grid-column:1/-1}.search-actions .primary{flex:1}.benefits{gap:20px}.hero{min-height:0}}
+@media(max-width:540px){.hero>div{padding:30px 23px}.hero h1{font-size:35px;letter-spacing:-1.3px}.benefits{grid-template-columns:1fr;margin-top:32px;padding-top:24px;gap:22px}.catalog-heading h2{font-size:25px}.search-actions{flex-wrap:wrap}.search-actions .primary{padding-left:16px;padding-right:16px}.catalog-heading .muted{font-size:11px}}
