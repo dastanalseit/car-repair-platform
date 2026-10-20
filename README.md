@@ -101,7 +101,7 @@ Significant deliverables and design decisions will be reviewed with the supervis
 
 **Stage:** Requirements and initial interface/system design.
 
-The scope, requirements, existing-system comparison, initial diagrams and a clickable interface prototype have been drafted. The project proposal remains pending. The production website and backend have not been implemented.
+The scope, requirements, existing-system comparison, initial diagrams and a clickable interface prototype have been drafted. The project proposal is drafted and awaiting supervisor review. The production website and backend have not been implemented.
 
 ## Technologies
 
@@ -119,7 +119,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 
 ## Project Documentation
 
-- [Project proposal](docs/project-proposal.md) — content pending
+- [Project proposal](docs/project-proposal.md) — drafted; supervisor review pending
 - [API design and permissions](docs/api-design.md)
 - [Database design and ER diagram](docs/database-design.md)
 - [Technology comparison and selection](docs/technology-comparison.md)
