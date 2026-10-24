@@ -15,7 +15,6 @@ The author supplied the supervisor's written comments in the project conversatio
 | SF-03 | Literature review | Discuss review helpfulness and text, not only stars | Section 3.8 and source [17]; proposed text-comprehension evaluation in section 6.1 | Revision prepared; evaluation not executed |
 | SF-04 | Literature review | Address both sides' incentives, including specialists soliciting reviews | Section 3.9 compares actor incentives, selective solicitation and neutral invitation proposals | Revision prepared; specialist perspective not yet validated |
 | SF-05 | Literature review | Include review fraud in local services beyond retail/hotels | Section 3.10 adds restaurant evidence [18] and the home-service platform case [20] | Revision prepared; foreign-context limitations stated |
-| SF-06 | User research | “What about the interviews?” | Summarise the individual driver responses already documented and complete outstanding collection metadata | Collection metadata and follow-up pending |
 
 ## Follow-up
 
