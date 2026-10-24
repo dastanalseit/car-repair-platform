@@ -4,9 +4,7 @@
 
 ## Overview
 
-The project will be delivered as a responsive website accessible through a web browser on computers and smartphones. Users will not need to install a separate application. Registration, specialist search, personal accounts, service requests, reviews, and ratings will be available through the website.
-
-Car Repair Platform is a planned website that will help car owners find repair specialists, request services, and compare specialists using ratings based on verified customer reviews.
+Car Repair Platform is a planned website for finding repair specialists, sending service requests and comparing customer reviews. It will work in desktop and mobile browsers. Customers and specialists will have accounts to manage requests and follow repair progress.
 
 A verified review will be linked to a service request that has been completed and confirmed by the customer. This confirms the review’s connection to a recorded service request; it does not guarantee the quality of the service or eliminate all fraudulent activity.
 
@@ -14,7 +12,7 @@ A verified review will be linked to a service request that has been completed an
 
 Initial informal discussions with drivers raised concerns about repair quality and the risk of being misled when choosing repair specialists.
 
-The [user research](docs/user-research.md) now records six anonymised driver response sets and preliminary findings, including differing views on website usefulness. Collection metadata and follow-up clarifications remain incomplete; the findings are not representative of all drivers.
+The [user research](docs/user-research.md) now records six anonymised driver response sets and preliminary findings, including differing views on website usefulness. The author confirms permission for anonymous use. The small sample does not represent all drivers.
 
 ## Aim
 
@@ -103,7 +101,7 @@ Significant deliverables and design decisions will be reviewed with the supervis
 
 The proposal, literature review, comparisons, requirements, diagrams, database/API designs, evaluation plan and project plan are available as drafts. A clickable Russian/Kazakh interface prototype is available.
 
-**Research update:** six anonymised driver response records from individual interviews through Threads and WhatsApp and preliminary analysis are available. Follow-up details and collection metadata remain incomplete. Initial supervisor feedback and the resulting literature-review revisions are recorded; confirmation of the revisions remains pending. The production website and backend have not been implemented; evaluation results are not yet available.
+**Research update:** six anonymised driver response records from individual interviews through Threads and WhatsApp and preliminary analysis are available. The author confirms that all six participants agreed to anonymous use; session-level metadata is limited. Initial supervisor feedback and the resulting literature-review revisions are recorded; confirmation of the revisions remains pending. The production website and backend have not been implemented; evaluation results are not yet available.
 
 ## Technologies
 
@@ -124,7 +122,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 | Document | Current status |
 |---|---|
 | [Project proposal](docs/project-proposal.md) | Draft for supervisor review |
-| [User research](docs/user-research.md) | P1–P6 response summaries and preliminary findings; follow-up clarifications and collection metadata pending |
+| [User research](docs/user-research.md) | Six individual interviews, author-confirmed permission and preliminary findings; supervisor review pending |
 | [Literature review and source comparison](docs/literature-review.md) | 18 scholarly sources and 2 contextual primary sources; Kazakhstan, review text and provider incentives added following feedback |
 | [Existing system comparison](docs/existing-system-comparison.md) | Draft comparison |
 | [Requirements and acceptance criteria](docs/requirements.md) | Initial requirements |
@@ -135,15 +133,14 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 | [Prototype guide](docs/prototype/README.md) | Russian/Kazakh demonstration interface |
 | [Prototype review notes](docs/prototype/verification-notes.md) | Historical notes; the latest visual revision has not been scenario-tested |
 | [Evaluation plan](docs/evaluation-plan.md) | Protocol prepared; results pending |
-| [Project plan and risks](docs/project-plan.md) | Stages, responsibilities and risk register; calendar dates not assigned |
+| [Project plan and risks](docs/project-plan.md) | Stages, responsibilities, risks and first-stage deadline |
 | [Supervisor feedback](docs/supervisor-feedback.md) | Initial feedback recorded; revisions mapped to comments; supervisor confirmation pending |
 
 ## Remaining Evidence
 
-- Clarify incomplete driver answers, document permission/collection metadata and review the preliminary findings.
-- Obtain supervisor confirmation of the recorded revisions and clarify interview status.
+- Ask the supervisor to review the revised literature analysis and the documented interview findings.
 - Reconcile proposed review-text and specialist-incentive evaluation with requirements before data collection.
-- Before submission, confirm the required deliverables, reviewer access and scheduling with the supervisor. Create the assessment tag only for the version actually submitted.
+- Before handing in the link, confirm that the supervisor and committee can open YouTrack. Use the tagged repository copy for the prototype.
 - Implement and evaluate the production website during the subsequent development stages.
 
 Document availability does not imply supervisor approval or completion of the full diploma.
@@ -160,7 +157,7 @@ Each meaningful task will include:
 - Expected outcome
 - Acceptance criteria
 - Priority
-- Deadline when scheduling is agreed; dates are currently unassigned
+- Deadline: 24 October 2026 for CRP-1 through CRP-6, covering the first pre-defense package
 
 Task IDs will be referenced in branch names and commit or pull request descriptions. Relevant commits or pull requests will also be linked from YouTrack.
 
@@ -203,11 +200,10 @@ Installation, configuration, execution, and testing instructions will be added w
 
 ## Submission Milestones
 
-The following Git tags are planned for versions submitted for assessment. They are not created by this documentation cleanup:
+The first-stage package is recorded under `pre-defense-1`. See the [submission summary](docs/submission-summary.md) for its contents and open items, and the [defense guide](docs/defense-guide.md) for a demonstration outline. Later submissions will use separate tags:
 
-- `pre-defense-1`
 - `pre-defense-2`
 - `final-pre-defense`
 
-Each submission will include the repository link, submission tag, completed work summary, known limitations, and outstanding tasks.
+Keep each submitted tag unchanged. Further work continues on main and is included in the next submission.
 

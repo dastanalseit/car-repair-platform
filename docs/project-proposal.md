@@ -16,7 +16,7 @@ Dastan is responsible for research, requirements, design, implementation, evalua
 
 Car owners need to find repair specialists whose services match their vehicle problem and location. They also need information that helps them compare specialists before submitting a request. A rating is more informative when a review can be connected to a recorded service relationship.
 
-The author reported informal conversations with drivers who expressed concerns about repair quality and being misled. These are preliminary observations, not a documented interview study. The separate [user research](user-research.md) now contains six anonymised driver response summaries and preliminary findings. These records do not establish measured prevalence across repair services; collection metadata and clarifications remain incomplete.
+The author reported informal conversations with drivers who expressed concerns about repair quality and being misled. These are preliminary observations, not a documented interview study. The separate [user research](user-research.md) now contains six anonymised driver response summaries and preliminary findings. These records do not establish measured prevalence across repair services; the author confirms permission for anonymous use, and session-level metadata is limited.
 
 This project addresses a specific information problem: helping customers find specialists and distinguish reviews linked to completed service requests from reviews with no recorded request relationship. It does not independently inspect repairs or guarantee that every review is truthful.
 
@@ -161,7 +161,7 @@ The planned comprehension comparison uses the same specialist information and wo
 | Evaluation and refinement | Results, fixes and limitations | Runnable implementation and evaluation participants |
 | Submission preparation | Reviewed repository version, tag and demonstration notes | Completed review and traceability checks |
 
-Priorities, dependencies and acceptance criteria are tracked in the [YouTrack project](https://dastan-car-repair.youtrack.cloud/projects/CRP); the proposal is linked to [CRP-1](https://dastan-car-repair.youtrack.cloud/issue/CRP-1). The [project plan](project-plan.md) describes stages and responsibilities. Calendar dates remain unassigned; scheduling and approval require separate agreement.
+Priorities, dependencies and acceptance criteria are tracked in the [YouTrack project](https://dastan-car-repair.youtrack.cloud/projects/CRP); the proposal is linked to [CRP-1](https://dastan-car-repair.youtrack.cloud/issue/CRP-1). The [project plan](project-plan.md) describes stages and responsibilities. The first-stage deadline for CRP-1 through CRP-6 is 24 October 2026. Later implementation milestones require separate scheduling.
 
 ## Initial risks
 
@@ -193,4 +193,4 @@ Ask the supervisor to review the problem and scope, evidence quality, requiremen
 - [Literature review](literature-review.md)
 - [Evaluation plan](evaluation-plan.md)
 - [Project plan and risks](project-plan.md)
-- [Supervisor feedback — pending](supervisor-feedback.md)
+- [Supervisor feedback and revisions](supervisor-feedback.md)
