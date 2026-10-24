@@ -4,7 +4,7 @@
 **Author:** Dastan  
 **Supervisor:** Botagoz Mirzagalikova  
 **Related task:** [CRP-2](https://dastan-car-repair.youtrack.cloud/issue/CRP-2)  
-**Status:** Six driver response records (P1–P6) and preliminary analysis added. Follow-up clarifications and collection metadata remain incomplete; supervisor review is pending.
+**Status:** Six individual driver interviews and preliminary findings documented; supervisor review is pending.
 
 ## 1. Purpose
 
@@ -88,7 +88,7 @@ Compare each supported theme with the current requirements. State whether it sup
 
 The author supplied responses for six drivers and confirmed that the interviews were conducted individually with each participant through Threads and WhatsApp. The platform used for each participant and whether responses were typed or spoken have not been specified. The records below are English paraphrases of the supplied Russian/Kazakh material, not verbatim quotations or independently verified transcripts. P2's Q8 answer was supplied separately as a brief author-reported summary. The questions are mapped to Q1–Q8 by topic; the supplied website question asked about usefulness and desired features. Consistent delivery of the planned introduction and concept explanation was not documented.
 
-Names, chat labels, timestamps, vehicle model and unnecessary incident details are omitted. No service business is identified. Consent status, session duration, recruitment method and participant ages were not supplied; these are **not recorded**, not assumed. The author should retain any consent evidence privately and document permission status without identifying participants. No consent or supervisor approval is claimed here.
+Names, chat labels, timestamps, vehicle model and unnecessary incident details are omitted. No service business is identified. The author confirms that all six participants agreed to anonymous use of their answers in the diploma. This records the author’s confirmation; private messages and consent records are not published. Session duration, recruitment details and participant ages were not supplied. Supervisor approval of the findings has not been recorded.
 
 ### P1
 
@@ -114,7 +114,7 @@ Names, chat labels, timestamps, vehicle model and unnecessary incident details a
 | Q5 | Said the parts were replaced. Whether the fault disappeared and whether the result was satisfactory were not explicitly stated. |
 | Q6 | Reported no procedural difficulty, but the cost was financially burdensome. |
 | Q7 | Answered no to leaving a review or making a complaint. |
-| Q8 | The author subsequently reported that the participant considered such a website necessary. No detailed reason or feature preference was supplied. |
+| Q8 | The author clarified that the participant said the website would help them. No specific feature preference was supplied. |
 
 ### P3
 
@@ -186,13 +186,13 @@ Maps, booking calendars, automatic estimates, parts search, warranty displays an
 
 ## 8. Limitations and next steps
 
-- Six individual driver interviews conducted through Threads and WhatsApp are documented through response summaries supplied by the author. Participant-level channel details, recruitment, age eligibility, duration and consent status remain unrecorded in the supplied material.
-- P2's satisfaction and reasons for website usefulness need clarification. P1's online-review posting status is unclear. Missing details have not been invented.
+- Six individual driver interviews conducted through Threads and WhatsApp are documented through response summaries supplied by the author. The author confirms permission for anonymous academic use. Participant-level channel details, recruitment, age eligibility and duration are not recorded.
+- P1 described a positive experience and willingness to recommend the service, without stating whether an online review was posted. P2 described replacement work and said the website would help them, without explicitly evaluating the repair outcome. The analysis uses these answers as supplied.
 - The source material was translated and paraphrased. Ambiguous transcript fragments were not interpreted as new facts. No verbatim quotations are claimed.
 - Self-reported recollections and technical explanations were not independently verified. No allegations about identifiable services are published.
 - Only drivers are represented. Specialist and administrator needs still require separate evidence.
 - Opinions concern a proposed concept, not observed use of the prototype or production system. Functional, usability and performance evaluation remains unexecuted.
 
-Next steps: document permission and collection metadata privately where appropriate, clarify the missing answers, review the analysis with the supervisor and record any agreed requirement changes. Initial supervisor feedback is recorded separately; acceptance of the user-research findings has not been recorded.
+Next, review the findings with the supervisor and record any agreed changes to the requirements. Keep any original messages and permission evidence private. Initial supervisor feedback is recorded separately; acceptance of the user-research findings has not been recorded.
 
 [Requirements](requirements.md) · [Evaluation plan](evaluation-plan.md) · [Supervisor feedback](supervisor-feedback.md) · [Project overview](../README.md)

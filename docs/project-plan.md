@@ -3,7 +3,7 @@
 **Project:** Development of a Platform for Finding Car Repair Specialists with a Rating System Based on Verified Customer Reviews  
 **Author:** Dastan  
 **Supervisor:** Botagoz Mirzagalikova  
-**Status:** Proposed delivery plan for review. Calendar dates are not assigned.
+**Status:** Proposed delivery plan for review. The first-stage deadline for CRP-1 through CRP-6 is 24 October 2026. Later implementation dates remain to be agreed.
 
 ## 1. Delivery approach
 
@@ -84,7 +84,7 @@ Likelihood and impact are qualitative planning judgements, not measured probabil
 
 Use the [YouTrack project](https://dastan-car-repair.youtrack.cloud/projects/CRP) to track work. Current planning areas include proposal (CRP-1), interviews (CRP-2), literature review (CRP-3), requirements/design/prototype (CRP-4), evaluation (CRP-5) and supervisor submission (CRP-6). Create implementation tasks as the stages are broken down; do not treat these planning tasks as evidence that software has been delivered.
 
-Each task should identify the owner, expected output, requirement references where applicable, acceptance criteria, priority, dependencies and a link to the relevant pull request or evidence. Calendar dates can be agreed later.
+Each task should identify the owner, expected output, requirement references where applicable, acceptance criteria, priority, dependencies and a link to the relevant pull request or evidence. CRP-1 through CRP-6 have a first-stage deadline of 24 October 2026. Open review items remain visible after this checkpoint; the date does not imply completion.
 
 Review checkpoints:
 
@@ -102,7 +102,7 @@ Use task-linked branches and pull requests. Describe what changed, why it change
 
 For each implementation increment, completion requires the intended behaviour, updated documentation, evidence from the applicable planned checks and a clear statement of remaining defects. Test results must identify the evaluated commit. A blocked or unexecuted check is not a pass.
 
-Before final implementation submission, confirm that all Must requirements have evidence, the main browser journey is reproducible, private material is excluded, assessment tags identify the intended version, and known limitations are stated. Date-free planning does not replace any deadlines imposed by the course; agree scheduling separately when needed.
+Before final implementation submission, confirm that all Must requirements have evidence, the main browser journey is reproducible, private material is excluded, assessment tags identify the intended version, and known limitations are stated. Later implementation milestones need their own agreed deadlines.
 
 ## 8. Related documents
 
@@ -114,4 +114,4 @@ Before final implementation submission, confirm that all Must requirements have 
 - [Evaluation plan](evaluation-plan.md)
 - [User research plan](user-research.md)
 
-These documents are consolidated drafts awaiting supervisor review. Six driver response summaries and preliminary findings are available in User Research; collection metadata and clarifications remain incomplete. Supervisor feedback remains intentionally blank.
+The repository contains the first-stage analysis and design documents. User Research summarises six individual driver interviews conducted through Threads and WhatsApp. The author confirms that all participants agreed to anonymous use. Unspecified details are recorded as limitations. The supervisor’s literature-review comments and the changes made in response are recorded in Supervisor Feedback. Confirmation of those revisions is pending.
