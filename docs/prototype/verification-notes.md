@@ -1,6 +1,6 @@
 # Prototype review notes
 
-Date: 18 October 2026. Environment: local prototype in the Codex browser. All inputs were demonstration data.
+Date: 18 October 2026. Environment: local prototype in a web browser. All inputs were demonstration data.
 
 ## Observed during the walkthrough
 
