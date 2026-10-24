@@ -18,6 +18,6 @@ The author supplied the supervisor's written comments in the project conversatio
 
 ## Follow-up
 
-The author identified the existing P1–P6 summaries as responses collected individually from drivers. Outstanding collection metadata and follow-up clarifications should be completed in User Research before presenting the evidence to the supervisor. No additional interviews, consent records or recordings are claimed here.
+The author identified the existing P1–P6 summaries as responses collected individually from drivers through Threads and WhatsApp. Outstanding collection metadata and follow-up clarifications should be completed in User Research before presenting the evidence to the supervisor. No additional interviews, consent records or recordings are claimed here.
 
 Send the revised review for confirmation and record any further comments. Preserve the distinction between changes made to documents, proposed evaluation work and completed empirical research.

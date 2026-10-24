@@ -86,9 +86,9 @@ Compare each supported theme with the current requirements. State whether it sup
 
 ### Source and recording limits
 
-The author supplied responses for six drivers and confirmed that P4–P6 describe real respondents. The records below are English paraphrases of the supplied Russian/Kazakh material, not verbatim quotations or independently verified transcripts. P2's Q8 answer was supplied separately as a brief author-reported summary. The questions are mapped to Q1–Q8 by topic; the supplied website question asked about usefulness and desired features. Consistent delivery of the planned introduction and concept explanation was not documented.
+The author supplied responses for six drivers and confirmed that the interviews were conducted individually with each participant through Threads and WhatsApp. The platform used for each participant and whether responses were typed or spoken have not been specified. The records below are English paraphrases of the supplied Russian/Kazakh material, not verbatim quotations or independently verified transcripts. P2's Q8 answer was supplied separately as a brief author-reported summary. The questions are mapped to Q1–Q8 by topic; the supplied website question asked about usefulness and desired features. Consistent delivery of the planned introduction and concept explanation was not documented.
 
-Names, chat labels, timestamps, vehicle model and unnecessary incident details are omitted. No service business is identified. Consent status, session duration, collection mode, recruitment method and participant ages were not supplied; these are **not recorded**, not assumed. The author should retain any consent evidence privately and document permission status without identifying participants. No consent or supervisor approval is claimed here.
+Names, chat labels, timestamps, vehicle model and unnecessary incident details are omitted. No service business is identified. Consent status, session duration, recruitment method and participant ages were not supplied; these are **not recorded**, not assumed. The author should retain any consent evidence privately and document permission status without identifying participants. No consent or supervisor approval is claimed here.
 
 ### P1
 
@@ -186,13 +186,13 @@ Maps, booking calendars, automatic estimates, parts search, warranty displays an
 
 ## 8. Limitations and next steps
 
-- Six response records are available, but they are not six fully documented interview sessions. Recruitment, age eligibility, collection conditions, duration and consent status remain unrecorded in the supplied material.
+- Six individual driver interviews conducted through Threads and WhatsApp are documented through response summaries supplied by the author. Participant-level channel details, recruitment, age eligibility, duration and consent status remain unrecorded in the supplied material.
 - P2's satisfaction and reasons for website usefulness need clarification. P1's online-review posting status is unclear. Missing details have not been invented.
 - The source material was translated and paraphrased. Ambiguous transcript fragments were not interpreted as new facts. No verbatim quotations are claimed.
 - Self-reported recollections and technical explanations were not independently verified. No allegations about identifiable services are published.
 - Only drivers are represented. Specialist and administrator needs still require separate evidence.
 - Opinions concern a proposed concept, not observed use of the prototype or production system. Functional, usability and performance evaluation remains unexecuted.
 
-Next steps: document permission and collection metadata privately where appropriate, clarify the missing answers, review the analysis with the supervisor and record any agreed requirement changes. Supervisor feedback remains blank until received.
+Next steps: document permission and collection metadata privately where appropriate, clarify the missing answers, review the analysis with the supervisor and record any agreed requirement changes. Initial supervisor feedback is recorded separately; acceptance of the user-research findings has not been recorded.
 
 [Requirements](requirements.md) · [Evaluation plan](evaluation-plan.md) · [Supervisor feedback](supervisor-feedback.md) · [Project overview](../README.md)
