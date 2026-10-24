@@ -103,7 +103,7 @@ Significant deliverables and design decisions will be reviewed with the supervis
 
 The proposal, literature review, comparisons, requirements, diagrams, database/API designs, evaluation plan and project plan are available as drafts. A clickable Russian/Kazakh interface prototype is available.
 
-**Research update:** six anonymised driver response records and preliminary analysis are available. Follow-up details and collection metadata remain incomplete. Supervisor feedback remains blank; no supervisor approval is claimed. The production website and backend have not been implemented; evaluation results are not yet available.
+**Research update:** six anonymised driver response records from individual interviews through Threads and WhatsApp and preliminary analysis are available. Follow-up details and collection metadata remain incomplete. Initial supervisor feedback and the resulting literature-review revisions are recorded; confirmation of the revisions remains pending. The production website and backend have not been implemented; evaluation results are not yet available.
 
 ## Technologies
 
