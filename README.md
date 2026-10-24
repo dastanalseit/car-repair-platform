@@ -192,7 +192,7 @@ The detailed plan proposes metrics, measurement conditions and a baseline for co
 
 Download the repository ZIP or clone the repository, then open `docs/prototype/ru.html` (Russian) or `docs/prototype/kk.html` (Kazakh). Keep the HTML files and `theme.css` together. The prototype uses fictional data held in memory and requires no installation. See the [prototype guide](docs/prototype/README.md) for the walkthrough and local-server option.
 
-[Hosted preview](https://autosenim-dastan-prototype.magic-coin-2293.chatgpt.site/ru) — currently private and owner-only; use the repository copy for a reviewer who cannot access Sites.
+[Open the public prototype](https://autosenim.vercel.app/) — available without a ChatGPT or Vercel account. [Russian interface](https://autosenim.vercel.app/ru) · [Kazakh interface](https://autosenim.vercel.app/kk).
 
 Production application code is not yet available.
 
