@@ -33,7 +33,7 @@ Before treating user needs as validated findings:
 - Keep observed findings, quotations, interpretations and design assumptions separate.
 - Link each supported finding to the requirements it informs; report disagreements and limitations.
 
-The literature review must meaningfully use at least 12 sources, including at least 8 scientific publications. It should examine online reputation, verified transactions, review manipulation, trust and marketplace usability. A [literature review draft](literature-review.md) with 15 sources is available. Full texts or author manuscripts support all 15 entries, with method and limitation notes. Two restricted sources have been replaced by accessible studies of review manipulation and detection. Supervisor review remains pending.
+The literature review must meaningfully use at least 12 sources, including at least 8 scientific publications. It should examine online reputation, verified transactions, review manipulation, trust and marketplace usability. A [literature review draft](literature-review.md) with 18 scholarly sources and two contextual primary sources is available. The revised review adds Kazakhstan automotive evidence, dated official fleet statistics, review helpfulness and local-service manipulation incentives. Initial supervisor feedback is recorded; confirmation of these revisions remains pending.
 
 ## Target users
 
