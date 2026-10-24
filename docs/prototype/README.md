@@ -6,7 +6,8 @@ AutoSenim is a provisional interface name; the diploma title remains unchanged. 
 
 - [Russian interface](ru.html)
 - [Kazakh interface](kk.html); `index.html` also opens the Kazakh version in this repository.
-- [Hosted preview on Sites](https://autosenim-dastan-prototype.magic-coin-2293.chatgpt.site) — private, owner-only access. This is not a public committee-access link. The hosted entry page defaults to Russian.
+- [Public prototype on Vercel](https://autosenim.vercel.app/) — opens without signing in to ChatGPT or Vercel. The hosted entry page defaults to Russian.
+- Hosted languages: [Russian](https://autosenim.vercel.app/ru) and [Kazakh](https://autosenim.vercel.app/kk).
 
 Download the repository ZIP or clone this branch, then open `docs/prototype/ru.html` in a browser. Keep `index.html`, `ru.html`, `kk.html` and `theme.css` together in the same folder. GitHub's file view displays source rather than running the interface. No installation, build step or external assets are required.
 
