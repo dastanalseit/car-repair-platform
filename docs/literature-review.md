@@ -4,7 +4,7 @@
 **Author:** Dastan  
 **Supervisor:** Botagoz Mirzagalikova  
 **Related task:** [CRP-3](https://dastan-car-repair.youtrack.cloud/issue/CRP-3)  
-**Status:** Draft for review.
+**Status:** Revised following supervisor feedback; confirmation of the revisions is pending.
 
 ## 1. Purpose and review questions
 
@@ -21,11 +21,11 @@ The central distinction is between a recorded service relationship, the honesty 
 
 This is a focused narrative review, not an exhaustive systematic review or meta-analysis. Sources were located through web searches directed at scholarly publishers, an author-hosted manuscript and research repositories, then checked against publisher or repository records. Search terms included “verified purchase reviews”, “fake review buyers”, “online reputation systems”, “rating system design”, “incentives to review”, “auto repair reputation” and “automotive after-sales service quality”. Searches also followed relevant references in the retrieved papers. No claim is made that Scopus or Web of Science was searched directly.
 
-The selected set contains **15 scholarly sources: 13 journal publications, one peer-reviewed conference paper and one explicitly identified NBER working paper**. Eight sources have publication years from 2022 to 2024. Seven earlier works cover foundational reputation and rating mechanisms or directly relevant automotive service evidence. Three articles [13–15] specifically investigate auto repair or automotive after-sales service. Publication years below are bibliographic information, not project deadlines.
+The selected set contains **18 scholarly sources: 16 journal publications, one peer-reviewed conference paper and one NBER working paper**. Nine have publication years from 2022 to 2024; the remaining works provide foundational mechanisms or automotive evidence. The recent core covers manipulation, verification, incentives and service quality; older work is retained for specific mechanisms rather than current prevalence estimates. Four articles [13–16] address automotive services, including Kazakhstan [16]. Two supplementary primary sources [19–20] provide official local statistics and a documented home-service platform case; they are not counted as scientific publications. Publication years are bibliographic information, not project deadlines.
 
-Inclusion required a clear connection to review credibility, manipulation, participation, rating design or automotive service quality and enough accessible evidence to identify the method and main finding. News articles, product marketing, duplicate manuscript versions and unrelated detection studies were excluded from the final set. Sources about retail, accommodation and online labour are used as adjacent evidence; they do not establish the prevalence of dishonest repairs in Kazakhstan.
+Inclusion required a clear connection to review credibility, manipulation, participation, rating design or automotive service quality and enough accessible evidence to identify the method and main finding. General news articles, product marketing, duplicate manuscript versions and unrelated detection studies were excluded from the scholarly set. Official statistical reporting and a regulator’s case account are included separately as contextual primary evidence. Sources about retail, accommodation and online labour are used as adjacent evidence; they do not establish the prevalence of dishonest repairs in Kazakhstan.
 
-Full articles or author manuscripts were consulted for all 15 sources. Sources [8] and [11] are accessible replacements addressing transaction-linked feedback and deceptive-review detection. Manuscript versions are identified separately from journal publication records, including the revised 2025 working paper [5]. The comparison and expanded appraisal record methods, findings and transfer limits. Accessibility does not remove methodological limitations or imply independent replication. Limitations and proposed applications are this project's critical assessment unless stated otherwise.
+Full articles or author manuscripts were consulted for all 18 scholarly sources. Sources [16–18] extend the review to Kazakhstan, review helpfulness and local-service business incentives. For [18], the consulted full text is the 2013 working manuscript; the later journal record is identified separately. Manuscript versions are identified separately from journal publication records, including the revised 2025 working paper [5]. The comparison and expanded appraisal record methods, findings and transfer limits. Accessibility does not remove methodological limitations or imply independent replication. Limitations and proposed applications are this project's critical assessment unless stated otherwise.
 
 ## 3. Critical synthesis
 
@@ -69,6 +69,42 @@ Balinado et al. [14] surveyed 256 Toyota service customers in the Philippines. T
 
 For this project, the automotive evidence supports asking drivers about reliability, explanations and communication during real interviews, and inviting concrete descriptions in review text. These are proposed applications, not validated rating weights. The initial overall score should not be presented as a technical quality certificate; separate dimension scores would require further justification.
 
+### 3.7 Kazakhstan: local evidence and a harder service-selection problem
+
+Lantsev, Ibraev, Sarsenov and Dauletov [16] analyse Kazakhstan's automotive-service sector using secondary statistics and a discussion of enterprise models. They distinguish dealership, specialised and independent service provision and discuss matching capacity and skills to customer demand. This is relevant local scholarship, but it does not evaluate a review platform or measure customer trust. Its recommendations are not causal evidence that a website improves service quality.
+
+Official Bureau of National Statistics reporting [19], based on Ministry of Internal Affairs records, states that at 1 September 2025, 41.5% of passenger cars were over 20 years old and 24.2% were 10–20 years old. These are dated fleet figures, not a count of repair jobs or an estimate of fraud. Together with [16], they motivate investigating vehicle-specific expertise and parts-related uncertainty; they do not establish demand for this particular website.
+
+Compared with a standard retail item, a repair depends on diagnosis, the vehicle's history and the work actually performed. Schneider's inspection-based study [13] illustrates why customer satisfaction alone cannot establish whether treatment was necessary or sufficient. A customer may observe that a symptom disappeared without knowing whether every replaced part was needed. Hotels and labour marketplaces also have difficult quality dimensions; the distinction is the combination of diagnosis, technical opacity and case-specific repair work, not a claim that those markets are simple.
+
+For Kazakhstan, the local enterprise models and ageing fleet make service and vehicle compatibility plausible design priorities. Language preferences, reliance on personal recommendations, willingness to book online and available appointment times still require local evidence. The proposed contribution is to evaluate a request-linked feedback workflow in this setting, not to claim that the platform is the first in Kazakhstan or that it has already reduced fraud. Contracts and legal certification remain outside the initial scope.
+
+**Regional search boundary.** Searches included “Kazakhstan automobile service customer satisfaction”, “Казахстан автосервис качество услуг исследование”, “Kazakhstan online reviews trust” and “Uzbekistan car service customer satisfaction”. A directly relevant Kazakhstan automotive paper was included [16]. The focused search did not yield an appraised study testing the exact confirmed-request review mechanism in Kazakhstan or elsewhere in Central Asia. This describes the search outcome, not proof that no such research exists. Further regional work should be assessed for method and relevance rather than included solely for author affiliation.
+
+### 3.8 Review text and helpfulness beyond stars
+
+Mudambi and Schuff [17] analyse 1,587 Amazon reviews across six products using Tobit regression. Review depth and product type are associated with perceived helpfulness; depth is operationalised as word count. Helpfulness votes measure readers' perceptions, not truth or repair competence. The narrow product sample and observational design limit transfer to local services.
+
+For this website, the practical proposal is to prompt customers to describe the original problem, work performed, communication, timing and observed outcome. A longer review should not automatically receive a higher weight, and a short negative review should not be suppressed. The existing star mean remains separate from text. Evaluation should ask whether readers can extract useful decision information and recognise missing technical evidence, rather than only whether they trust a high score.
+
+### 3.9 Two-sided incentives and review solicitation
+
+The platform needs customers who submit real requests and specialists who provide accurate profiles and respond to them. This is a two-sided coordination problem: few active specialists reduce customer value, while few requests reduce specialists' reasons to maintain a profile [1]. The following incentive analysis is a project interpretation informed by [8–10, 18], not a measured description of Kazakhstan's specialists.
+
+| Actor | Potential benefit | Risk to feedback quality | Proposed response |
+|---|---|---|---|
+| Customer | Find a suitable specialist and document an experience | Effort, fear of conflict, or uncertainty about completion can prevent a review | Short neutral prompts; explain that confirmation does not mean satisfaction; retain complaint access |
+| Specialist | Attract requests, establish a reputation and fill suitable time slots | Invite only satisfied customers, pressure for high scores, or fabricate requests | Apply the same eligibility rule to every request; prevent specialist-authored customer reviews; do not reward positive scores |
+| Platform | Attract both sides and maintain participation | Inflate activity or remove criticism to make profiles attractive | Show genuine review counts and unrated profiles; record moderation reasons; do not treat silence as consent |
+
+A specialist can legitimately remind a customer to describe their experience. That differs from prescribing a score or offering a benefit for praise. If reminders are implemented, use neutral wording and a consistent trigger for all eligible completed requests, with no automatic review publication. This remains a design proposal, not an implemented feature. Specialist interviews should ask how reviews are requested, how cancellations and disputes are handled, and what motivates maintaining an accurate schedule.
+
+### 3.10 Review fraud in local services
+
+Luca and Zervas [18] study Boston restaurant reviews using Yelp-filtered feedback as a fraud proxy. Their working manuscript links suspicious feedback patterns to weak reputations and local competition. Filter decisions are imperfect labels; the study cannot identify every fraudulent review or establish Kazakhstan repair-market prevalence. It extends the incentive discussion beyond retail and hotels.
+
+A closer workflow example is the ACCC's account of Service Seeking [20], a platform for gardening, building and cleaning jobs. Businesses drafted reviews and selected scores; customer non-response could lead to publication. The case demonstrates that linking feedback to a job does not establish customer authorship. It is a documented Australian enforcement case, not a scientific sample or a statement of Kazakhstan law. For this project, only the customer should submit the review, and silence must not generate confirmation or feedback.
+
 ## 4. Structured source comparison
 
 “Full text” means the article text was accessible for consultation, not that every statistical result has been independently reproduced. Author manuscripts and published versions are distinguished below.
@@ -90,6 +126,11 @@ For this project, the automotive evidence supports asking drivers about reliabil
 | [13] | Schneider (2012); full published article | Undercover auto-repair field experiment; matched one-time versus repeat-business treatment | Under- and overtreatment occurred; repeat-business treatment did not significantly improve outcomes | Older experiment; repeat-business reputation differs from online ratings | Distinguish request verification from technical inspection |
 | [14] | Balinado et al. (2021); accessible publisher text | 256 Toyota service customers; Philippines; survey and SEM | Reliability and empathy were significantly associated with satisfaction | One dealer; voluntary respondents and reported perceptions | Explore reliability and communication in driver interviews |
 | [15] | Fathulloh & Purnama (2024); full publisher PDF | 100 Honda customers in Yogyakarta; online questionnaire and PLS-SEM | Reports support for all five SERVQUAL dimensions | Purposive local sample; self-reports and cross-sectional associations | Check local priorities instead of importing dimension weights |
+| [16] | Lantsev, Ibraev, Sarsenov & Dauletov (2022); full publisher PDF | Secondary statistics and analysis of Kazakhstan service-enterprise models | Local service capacity, specialisation and demand context | Descriptive recommendations; no platform evaluation or new customer sample | Investigate vehicle compatibility and specialist capacity |
+| [17] | Mudambi & Schuff (2010); full published paper | 1,587 reviews, six products, helpfulness-vote regression | Depth and product context inform helpfulness | Word count is a proxy; votes do not establish truth | Evaluate useful content separately from stars |
+| [18] | Luca & Zervas (2016); full 2013 manuscript and journal record | Restaurant-review panel; filtered-review proxy | Reputation and competition relate to manipulation incentives | Proxy errors, historical US setting and manuscript-version limits | Consider both self-promotion and competitor attacks |
+| [19] | Bureau of National Statistics (2025); official release | Administrative vehicle-registration reporting | Dated Kazakhstan passenger-car age structure | Fleet composition is not service demand or fraud prevalence | Motivate local research without estimating unsupported market size |
+| [20] | ACCC (2020); official case account | Documented home-service platform enforcement case | Provider-written reviews published after customer silence | Single Australian case; not causal or local-law evidence | Require active customer authorship and submission |
 
 ### 4.1 Expanded appraisal of newly accessible texts
 
@@ -133,6 +174,14 @@ The following are proposed applications of the evidence, not findings reported b
 
 The final evaluation plan must specify participants, conditions, baseline, metrics and analysis before collecting results. Functional enforcement and user understanding should be reported separately. An increase in perceived trust without correct understanding would not, by itself, demonstrate success. No tests or user study have been conducted as part of this literature review.
 
+### 6.1 Additional evaluation implications from supervisor feedback
+
+- Compare stars alone with the same profiles plus concrete review text, separately from the verification-label comparison. Record which information supports a choice and whether uncertainty is acknowledged.
+- Ask specialists about appointment capacity, review invitations and responses to criticism; do not infer their incentives solely from driver interviews.
+- Retain planned cases rejecting specialist-authored reviews and automatic completion on silence. Separate customer authorship, request eligibility, perceived helpfulness and repair quality in reporting.
+
+These are proposed extensions to be frozen before data collection. No new participant results or implementation outcomes are claimed.
+
 ## 7. Limitations and review actions
 
 - The selection is focused and non-exhaustive. Publisher accessibility may have affected which studies could be appraised in detail.
@@ -141,7 +190,7 @@ The final evaluation plan must specify participants, conditions, baseline, metri
 - Several works use related Amazon settings; they should not be treated as wholly independent evidence for every conclusion.
 - A confirmed request may be fabricated through collusion, while an honest dissatisfied customer may never reach the confirmation step. Both risks need explicit treatment.
 - Full-text access gaps have been resolved by replacing two restricted sources. Older replacement studies establish mechanisms, not current fraud prevalence or effectiveness in the intended local market.
-- Ask the supervisor to review the evidence selection and proposed evaluation questions. Supervisor approval has not been recorded.
+- Initial supervisor feedback has been received and is tracked in [Supervisor Feedback](supervisor-feedback.md). This revision addresses the requested themes; supervisor acceptance of the changes remains pending.
 
 ## 8. References
 
@@ -162,3 +211,9 @@ Numbered references are used throughout. Publication years distinguish source ve
 13. Schneider, H. S. (2012). Agency problems and reputation in expert services: Evidence from auto repair. *The Journal of Industrial Economics, 60*(3), 406–433. [Publisher / DOI](https://doi.org/10.1111/j.1467-6451.2012.00485.x). [Published article PDF, academic teaching copy](https://houdekpetr.cz/!data/papers/Schneider%202012.pdf).
 14. Balinado, J. R., Prasetyo, Y. T., Young, M. N., Persada, S. F., Miraja, B. A., & Perwira Redi, A. A. N. (2021). The effect of service quality on customer satisfaction in an automotive after-sales service. *Journal of Open Innovation: Technology, Market, and Complexity, 7*(2), 116. [DOI](https://doi.org/10.3390/joitmc7020116). [Publisher text](https://www.mdpi.com/2199-8531/7/2/116).
 15. Fathulloh, M. A., & Purnama, N. (2024). Assessing customer satisfaction in automotive after-sales service: A SERVQUAL analysis. *Asian Journal of Economics, Business and Accounting, 24*(9), 98–110. [DOI](https://doi.org/10.9734/ajeba/2024/v24i91479). [Publisher abstract and PDF access](https://journalajeba.com/index.php/AJEBA/article/view/1479). [Full publisher PDF](https://journalajeba.com/index.php/AJEBA/article/download/1479/3000/2214).
+
+16. Lantsev, V. Yu., Ibraev, A. S., Sarsenov, A. E., & Dauletov, A. M. (2022). Анализ современных методов повышения эффективности автосервисных предприятий [Analysis of modern methods of increasing the efficiency of car service enterprises]. *Наука и образование*, 3(4 (69)), 211–218. [Publisher record](https://ojs.wkau.kz/index.php/gbj/article/view/1172). [Full PDF](https://ojs.wkau.kz/index.php/gbj/article/download/1172/1717). Metadata note: page range follows the PDF and publisher metadata; the DOI printed in the PDF differs from the publisher record, so the publisher URL is retained as the stable reference.
+17. Mudambi, S. M., & Schuff, D. (2010). What makes a helpful online review? A study of customer reviews on Amazon.com. *MIS Quarterly, 34*(1), 185–200. [DOI](https://doi.org/10.2307/20721420). [Author-hosted published PDF](https://www.researchgate.net/profile/Susan-Mudambi/publication/220259990_What_Makes_a_Helpful_Online_Review_A_Study_of_Customer_Reviews_on_Amazoncom/links/09e4150ecd21880bc6000000/What-Makes-a-Helpful-Online-Review-A-Study-of-Customer-Reviews-on-Amazoncom.pdf).
+18. Luca, M., & Zervas, G. (2016). Fake it till you make it: Reputation, competition, and Yelp review fraud. *Management Science, 62*(12), 3412–3427. [DOI](https://doi.org/10.1287/mnsc.2015.2304). [University repository record](https://dash.harvard.edu/entities/publication/73120379-0abd-6bd4-e053-0100007fdf3b). [Full 2013 working manuscript consulted](https://www.everydaymoney.ca/mluca/FakeItTillYouMakeIt.pdf). The earlier manuscript is not treated as identical to the final journal version.
+19. Bureau of National Statistics of the Republic of Kazakhstan. (2025). 159,5 тыс. единиц автотранспортных средств поставлено на учет в августе. Official release reporting the registered fleet at 1 September 2025. [Government publication](https://www.gov.kz/org/stat/press/news/details/1068213). Contextual statistical source, not a scientific publication.
+20. Australian Competition and Consumer Commission. (2020). Service Seeking to pay penalty for misleading online ‘customer’ reviews. [Official case account](https://www.accc.gov.au/media-release/service-seeking-to-pay-penalty-for-misleading-online-customer-reviews). Contextual enforcement source, not a scientific publication.

@@ -125,7 +125,7 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 |---|---|
 | [Project proposal](docs/project-proposal.md) | Draft for supervisor review |
 | [User research](docs/user-research.md) | P1–P6 response summaries and preliminary findings; follow-up clarifications and collection metadata pending |
-| [Literature review and source comparison](docs/literature-review.md) | 15 sources with accessible full texts/manuscripts; methods, limitations and project implications documented; supervisor review pending |
+| [Literature review and source comparison](docs/literature-review.md) | 18 scholarly sources and 2 contextual primary sources; Kazakhstan, review text and provider incentives added following feedback |
 | [Existing system comparison](docs/existing-system-comparison.md) | Draft comparison |
 | [Requirements and acceptance criteria](docs/requirements.md) | Initial requirements |
 | [Technology comparison and selection](docs/technology-comparison.md) | Proposed production stack and alternatives |
@@ -136,13 +136,13 @@ See the [technology comparison and selection](docs/technology-comparison.md) for
 | [Prototype review notes](docs/prototype/verification-notes.md) | Historical notes; the latest visual revision has not been scenario-tested |
 | [Evaluation plan](docs/evaluation-plan.md) | Protocol prepared; results pending |
 | [Project plan and risks](docs/project-plan.md) | Stages, responsibilities and risk register; calendar dates not assigned |
-| [Supervisor feedback](docs/supervisor-feedback.md) | Intentionally blank until actual feedback is received |
+| [Supervisor feedback](docs/supervisor-feedback.md) | Initial feedback recorded; revisions mapped to comments; supervisor confirmation pending |
 
 ## Remaining Evidence
 
 - Clarify incomplete driver answers, document permission/collection metadata and review the preliminary findings.
-- Record actual supervisor feedback and resulting revisions.
-- Complete outstanding source appraisal and reconcile requirements with research findings.
+- Obtain supervisor confirmation of the recorded revisions and clarify interview status.
+- Reconcile proposed review-text and specialist-incentive evaluation with requirements before data collection.
 - Before submission, confirm the required deliverables, reviewer access and scheduling with the supervisor. Create the assessment tag only for the version actually submitted.
 - Implement and evaluate the production website during the subsequent development stages.
 
